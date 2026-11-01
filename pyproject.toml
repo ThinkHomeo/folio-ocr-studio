@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "format-aware-tpb-ocr"
+version = "0.4.0"
+description = "Folio by ThinkHomeo.in: local scan transcription and format-aware OCR review"
+readme = "README.md"
+authors = [{name = "ThinkHomeo.in"}]
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26,<3", "Pillow>=10,<13", "opencv-python-headless>=4.10,<6",
+  "pytesseract>=0.3.13,<1", "scikit-learn>=1.5,<2", "fastapi>=0.115,<1",
+  "uvicorn>=0.30,<1", "python-multipart>=0.0.18,<1", "pypdfium2>=4.30,<6",
+]
+
+[project.optional-dependencies]
+test = ["httpx>=0.27,<1"]
+
+[project.urls]
+Homepage = "https://thinkhomeo.in/"
+
+[project.scripts]
+formatocr = "formatocr.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["formatocr*", "tpbocr*"]
+
+[tool.setuptools.package-data]
+formatocr = ["static/*.html", "static/*.css", "static/*.js", "lexicon_tpb1891.json"]

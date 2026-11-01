@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Folio · System setup | ThinkHomeo.in</title>
+<meta name="author" content="ThinkHomeo.in">
+<meta name="application-name" content="Folio by ThinkHomeo.in">
+<meta name="description" content="Set up Folio by ThinkHomeo.in: check Python, OCR packages and language data on your computer.">
+<link rel="stylesheet" href="/static/setup.css?v=0.4.0-thinkhomeo1">
+<script src="/static/setup.js?v=0.4.0-thinkhomeo1" defer></script>
+</head><body>
+<header><div class="brand-lockup"><a class="brand" href="/">F<span>FOLIO</span></a><a class="publisher-link" href="https://thinkhomeo.in/" target="_blank" rel="noopener">ThinkHomeo.in</a></div><span>LOCAL OCR STUDIO</span><a id="returnLink" href="/" hidden>Return to documents</a></header>
+<main>
+<div class="eyebrow">INSTALLATION &amp; DEPENDENCIES</div>
+<h1>Set up Folio on this computer.</h1>
+<p class="intro">Check what is installed, resolve missing components, and start recognising your scans. Setup needs an internet connection to download files; OCR runs locally afterwards.</p>
+<section class="overview" id="overview" aria-labelledby="statusHeading"><div><h2 id="statusHeading">Checking this computer…</h2><p id="summary" role="status" aria-live="polite">The first check may take up to a minute while Python packages load.</p><small id="checkedAt"></small></div><button id="recheck" type="button">Recheck dependencies</button></section>
+<p id="requestError" class="error" role="alert" hidden></p>
+<aside id="environmentNote" class="environment-note" hidden><strong id="environmentTitle"></strong><p id="environmentDetail"></p><details><summary>Python environment locations</summary><p><b>Checked environment:</b> <code id="checkedEnvironment"></code></p><p><b>Local app environment:</b> <code id="localEnvironment"></code></p></details></aside>
+<aside id="readOnly" class="notice" hidden><strong>To install or repair components</strong><p>Close Folio's server window, then double-click <b>setup_folio.bat</b> in the app folder. This page checks the running app; the separate setup window installs dependencies safely.</p></aside>
+<aside id="activeApp" class="notice" hidden><strong>Folio is already running</strong><p>Stop the app before installing or repairing dependencies. Your saved documents stay in the data folder.</p><button id="stopApp" type="button" hidden>Stop Folio</button></aside>
+<section class="section" aria-labelledby="pythonHeading">
+<div class="section-heading"><span class="step">1</span><div><h2 id="pythonHeading">Python &amp; app packages</h2><p>Python 3.10 or newer, 64-bit. A separate .venv folder keeps this app's packages together.</p></div></div>
+<div id="pythonChecks" class="checks"></div>
+<div class="actions"><button id="installPackages" class="primary" type="button" data-action="packages" disabled>Install / repair packages</button><a href="https://www.python.org/downloads/windows/" target="_blank" rel="noopener noreferrer">Download Python</a></div>
+<details><summary>Manual installation &amp; troubleshooting</summary><p>Open PowerShell in the app folder and run these commands. If you copied a .venv from another computer, rename it first and create a fresh environment.</p><pre>python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -e .</pre><p>Select <b>Add Python to PATH</b> in the Python installer. For a missing Windows DLL, install Microsoft's Visual C++ Redistributable, then recheck.</p><a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist" target="_blank" rel="noopener noreferrer">Microsoft Visual C++ download instructions</a></details>
+</section>
+<section class="section" aria-labelledby="ocrHeading">
+<div class="section-heading"><span class="step">2</span><div><h2 id="ocrHeading">OCR engine &amp; languages</h2><p>Tesseract reads the text. English and Hindi use their own language data files.</p></div></div>
+<div id="ocrChecks" class="checks"></div>
+<div class="actions"><button id="installTesseract" class="primary" type="button" data-action="tesseract" disabled>Install Tesseract</button><button id="installLanguages" type="button" data-action="languages" disabled>Download English + Hindi</button><a href="https://github.com/UB-Mannheim/tesseract/wiki" target="_blank" rel="noopener noreferrer">Tesseract installer</a></div>
+<p class="help">Tesseract installation uses Windows Package Manager (winget) and may request administrator permission. Language packs download from the Tesseract project's <a href="https://github.com/tesseract-ocr/tessdata_fast" target="_blank" rel="noopener noreferrer">tessdata_fast repository</a> into this app's <b>tessdata</b> folder.</p>
+<details><summary>Manual Tesseract setup</summary><p>If winget is unavailable, use the installer link above. Install to <b>C:\Program Files\Tesseract-OCR</b>, or add another installation location to PATH. Select English and Hindi language data if offered, then recheck.</p><pre>winget install --id UB-Mannheim.TesseractOCR --exact --source winget</pre><p>For an existing installation elsewhere, set <b>TESSERACT_CMD</b> to its tesseract.exe path before opening the launcher. To download language packs manually, copy both <b>eng.traineddata</b> and <b>hin.traineddata</b> from tessdata_fast into this app's <b>tessdata</b> folder.</p></details>
+</section>
+<section class="section" aria-labelledby="modelHeading">
+<div class="section-heading"><span class="step">3</span><div><h2 id="modelHeading">Format-aware models <span class="optional">Optional</span></h2><p>Text OCR works without these files. The TPB 1891 profile uses them to help classify printed styles.</p></div></div>
+<div id="modelChecks" class="checks"></div>
+<p class="help">Copy <b>mlp_model.pkl</b> and <b>shape_model.pkl</b> from your trusted existing installation into this app's <b>out</b> folder. These custom models have no public download link. File presence is checked here; compatibility and recognition quality require OCR validation.</p>
+</section>
+<section id="taskPanel" class="section" aria-labelledby="taskHeading" hidden><h2 id="taskHeading">Installation activity</h2><p id="taskMessage" role="status" aria-live="polite"></p><progress id="taskProgress" aria-label="Installation in progress" hidden></progress><details open><summary>Installation log</summary><pre id="taskLog"></pre></details><p class="help">Logs are saved as <b>setup-status.log</b> and <b>setup-command.log</b> in the app folder. Retry a failed download after restoring your connection.</p></section>
+<section class="finish"><div><h2>Start working with your documents.</h2><p id="startHelp">Resolve the required items above to start Folio.</p></div><button id="startApp" class="primary" data-action="launch" type="button" disabled>Start Folio</button><a id="openApp" class="button primary" href="#" target="_blank" rel="noopener" hidden>Open Folio</a></section>
+<details class="transfer"><summary>Moving to another computer</summary><p>Copy this app folder, including <b>out</b> and <b>tessdata</b>, then run <b>setup_folio.bat</b> on the new Windows computer. Create a fresh .venv there. Install Python first if the launcher requests it.</p><p>To keep previous documents and corrections, stop the old server before copying the entire <b>dev-data</b> or <b>app-data</b> folder, including scans and the database. The launcher selects dev-data when present; otherwise it uses app-data. Use <b>run_app.bat --data-dir "your-folder"</b> for another location.</p></details>
+<footer><p class="publisher-credit">Folio · A project by <a href="https://thinkhomeo.in/" target="_blank" rel="noopener">ThinkHomeo.in</a></p><p>Folio checks and stores data on this computer. Installation downloads packages from PyPI, Windows Package Manager and the Tesseract project.</p></footer>
+</main>
+<dialog id="stopDialog" aria-labelledby="stopTitle"><h2 id="stopTitle">Stop Folio?</h2><p>Finish any OCR processing and save your corrections first. Your saved documents will remain available.</p><div class="actions"><button id="cancelStop" type="button">Cancel</button><button id="confirmStop" class="primary" type="button">Stop Folio</button></div></dialog>
+</body></html>

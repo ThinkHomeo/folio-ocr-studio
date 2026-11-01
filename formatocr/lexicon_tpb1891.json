@@ -1,0 +1,5199 @@
+{
+  "scope": "Comprehensive authoritative lexicon for Boenninghausen/Allen TPB 1891 (Boston Edition)",
+  "provenance": "Compiled from authentic Allen 1891 printed pages, cross-referenced with core125 (PD) and oorep authority databases; grades are never imported from third-party derivatives.",
+  "total_remedies": 649,
+  "remedies": [
+    {
+      "abbrev": "Ab. c.",
+      "full_name": "Abies canadensis",
+      "standard_abbrev": "Abies-c.",
+      "common_name": "Hemlock Spruce",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ab. n.",
+      "full_name": "Abies nigra",
+      "standard_abbrev": "Abies-n.",
+      "common_name": "Black Spruce",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Abrot.",
+      "full_name": "Abrotanum",
+      "standard_abbrev": "Abrot.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Abs.",
+      "full_name": "Absinthium",
+      "standard_abbrev": "Absin.",
+      "common_name": "Wormwood",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Abs. Acon.",
+      "full_name": "Absinthium & Aconitum",
+      "standard_abbrev": "Absin. + Acon.",
+      "common_name": "Absin & Acon",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Ac. ac.",
+      "full_name": "Aceticum acidum",
+      "standard_abbrev": "Acet-ac.",
+      "common_name": "Glacial Acetic Acid",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Acal.",
+      "full_name": "Acalypha Indica",
+      "standard_abbrev": "Acal.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Acet.",
+      "full_name": "Aceticum acidum",
+      "standard_abbrev": "Acet-ac.",
+      "common_name": "Glacial Acetic Acid",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Acet. veg.",
+      "full_name": "Acetum vegetabile",
+      "standard_abbrev": "Acet-ac.",
+      "common_name": "Vinegar",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Acetum veg.",
+      "full_name": "Acetum vegetabile",
+      "standard_abbrev": "Acet-ac.",
+      "common_name": "Vinegar",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Acetum veget.",
+      "full_name": "Acetum vegetabile",
+      "standard_abbrev": "Acet-ac.",
+      "common_name": "Vinegar",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Acetum.",
+      "full_name": "Acetum vegetabile",
+      "standard_abbrev": "Acet-ac.",
+      "common_name": "Vinegar",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Acids.",
+      "full_name": "Acidum (Mineral & Vegetable Acids)",
+      "standard_abbrev": "Acids",
+      "common_name": "Acids Group",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Acon.",
+      "full_name": "Aconitum napellus",
+      "standard_abbrev": "Acon.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Acon. Aesc.",
+      "full_name": "Aconitum & Aesculus hippocastanum",
+      "standard_abbrev": "Acon. + Aesc.",
+      "common_name": "Acon & Aesc",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Acon. f.",
+      "full_name": "Aconitum Ferox",
+      "standard_abbrev": "Acon-f.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Acon. Stram.",
+      "full_name": "Aconitum napellus & Stramonium",
+      "standard_abbrev": "Acon + Stram",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Aconin.",
+      "full_name": "Aconitinum",
+      "standard_abbrev": "Aconin.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Act.",
+      "full_name": "Actaea racemosa (Cimicifuga)",
+      "standard_abbrev": "Cimic.",
+      "common_name": "Black Cohosh",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Aesc.",
+      "full_name": "Aesculus Hippocastanum",
+      "standard_abbrev": "Aesc.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Aesc. c.",
+      "full_name": "Aesculus Carnea",
+      "standard_abbrev": "Aesc-c.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Aesc.. All. c.",
+      "full_name": "Aesculus hippocastanum & Allium cepa",
+      "standard_abbrev": "Aesc. + All-c.",
+      "common_name": "Aesc & All-c",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Aeth.",
+      "full_name": "Aethusa Cynapium",
+      "standard_abbrev": "Aeth.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Agar.",
+      "full_name": "Agaricus muscarius",
+      "standard_abbrev": "Agar.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Agar. Aloe.",
+      "full_name": "Agaricus & Aloe socotrina",
+      "standard_abbrev": "Agar. + Aloe",
+      "common_name": "Agar & Aloe",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Agar. Asar.",
+      "full_name": "Agaricus & Asarum europaeum",
+      "standard_abbrev": "Agar. + Asar.",
+      "common_name": "Agar & Asar",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Agn.",
+      "full_name": "Agnus castus (Vitex)",
+      "standard_abbrev": "Agn.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Agn. Am. carb.",
+      "full_name": "Agnus castus & Ammonium carbonicum",
+      "standard_abbrev": "Agn. + Am-c.",
+      "common_name": "Agn & Am-c",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Agn. n.",
+      "full_name": "Argentum nitricum",
+      "standard_abbrev": "Arg-n.",
+      "common_name": "Nitrate of Silver",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ail.",
+      "full_name": "Ailanthus Glandulosa",
+      "standard_abbrev": "Ail.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Alcohol.",
+      "full_name": "Alcohol",
+      "standard_abbrev": "Alcohol",
+      "common_name": "Alcohol",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Alet.",
+      "full_name": "Aletris Farinosa",
+      "standard_abbrev": "Alet.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "All. c.",
+      "full_name": "Allium Cepa",
+      "standard_abbrev": "All-c.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Aloe.",
+      "full_name": "Aloe Socotrina",
+      "standard_abbrev": "Aloe",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Alst.",
+      "full_name": "Alstonia scholaris",
+      "standard_abbrev": "Alst.",
+      "common_name": "Dita Bark / Bitter Bark",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Alum Ambr.",
+      "full_name": "Alumina & Ambra grisea",
+      "standard_abbrev": "Alum + Ambr",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Alum.",
+      "full_name": "Alumina",
+      "standard_abbrev": "Alum.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Alumen.",
+      "full_name": "Alumen",
+      "standard_abbrev": "Alumn.",
+      "common_name": "Potassa-Alum",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Am. b.",
+      "full_name": "Ammonium benzoicum",
+      "standard_abbrev": "Am-bz.",
+      "common_name": "Benzoate of Ammonia",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Am. br.",
+      "full_name": "Ambra grisea",
+      "standard_abbrev": "Ambr.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Am. c.",
+      "full_name": "Ammonium carbonicum",
+      "standard_abbrev": "Am-c.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Am. carb.",
+      "full_name": "Ammonium carbonicum",
+      "standard_abbrev": "Am-c.",
+      "common_name": "Carbonate of Ammonia",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Am. carb. Am. m.",
+      "full_name": "Ammonium carbonicum & Ammonium muriaticum",
+      "standard_abbrev": "Am-c. + Am-m.",
+      "common_name": "Am-c & Am-m",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Am. curb.",
+      "full_name": "Ammonium carbonicum",
+      "standard_abbrev": "Am-c.",
+      "common_name": "Carbonate of Ammonia",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Am. m.",
+      "full_name": "Ammonium muriaticum",
+      "standard_abbrev": "Am-m.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Am. mur.",
+      "full_name": "Ammonium muriaticum",
+      "standard_abbrev": "Am-m.",
+      "common_name": "Sal Ammoniac",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Am. phos.",
+      "full_name": "Ammonium phosphoricum",
+      "standard_abbrev": "Am-p.",
+      "common_name": "Phosphate of Ammonia",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Amb.",
+      "full_name": "Ammonium benzoicum",
+      "standard_abbrev": "Am-bz.",
+      "common_name": "Benzoate of Ammonia",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ambr.",
+      "full_name": "Ambra grisea",
+      "standard_abbrev": "Ambr.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Ambra.",
+      "full_name": "Ambra grisea",
+      "standard_abbrev": "Ambr.",
+      "common_name": "Ambergris",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Amm. c.",
+      "full_name": "Ammoniacum Gummi",
+      "standard_abbrev": "Ammc.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ammc.",
+      "full_name": "Ammoniacum Gummi",
+      "standard_abbrev": "Ammc.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Amnc.",
+      "full_name": "Ammonium carbonicum",
+      "standard_abbrev": "Am-c.",
+      "common_name": "Carbonate of Ammonia",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Amyl.",
+      "full_name": "Amylenum nitrosum",
+      "standard_abbrev": "Aml-ns.",
+      "common_name": "Amyl Nitrite",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "An. ac.",
+      "full_name": "Anacardium orientale",
+      "standard_abbrev": "Anac.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Anac.",
+      "full_name": "Anacardium orientale",
+      "standard_abbrev": "Anac.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Anac. Ant. cr.",
+      "full_name": "Anacardium orientale & Antimonium crudum",
+      "standard_abbrev": "Anac. + Ant-c.",
+      "common_name": "Anac & Ant-c",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Ans. cr.",
+      "full_name": "Antimonium crudum",
+      "standard_abbrev": "Ant-c.",
+      "common_name": "Black Sulphide of Antimony",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Ant.",
+      "full_name": "Antimonium crudum",
+      "standard_abbrev": "Ant-c.",
+      "common_name": "Antimony",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "ANT. ARS.",
+      "full_name": "Antimonium arsenicosum",
+      "standard_abbrev": "Ant-ar.",
+      "common_name": "Arsenite of Antimony",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ant. c.",
+      "full_name": "Antimonium crudum",
+      "standard_abbrev": "Ant-c.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Ant. cr.",
+      "full_name": "Antimonium crudum",
+      "standard_abbrev": "Ant-c.",
+      "common_name": "Black Sulphide of Antimony",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Ant. cr. Ant. t.",
+      "full_name": "Antimonium crudum & Antimonium tartaricum",
+      "standard_abbrev": "Ant-c. + Ant-t.",
+      "common_name": "Ant-c & Ant-t",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Ant. cr. Ars.",
+      "full_name": "Antimonium crudum & Arsenicum album",
+      "standard_abbrev": "Ant-c. + Ars.",
+      "common_name": "Ant-c & Ars",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Ant. s.",
+      "full_name": "Antimonium Sulphuratum Auratum",
+      "standard_abbrev": "Ant-s.",
+      "common_name": "{\"Antimonium Sulphuratum Aureum\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ant. s. aur.",
+      "full_name": "Antimonium sulfuratum auratum",
+      "standard_abbrev": "Ant-s-aur.",
+      "common_name": "Golden Sulphuret of Antimony",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ant. t.",
+      "full_name": "Antimonium tartaricum",
+      "standard_abbrev": "Ant-t.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "anth.",
+      "full_name": "Anthemis Nobilis",
+      "standard_abbrev": "Anth.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Antip.",
+      "full_name": "Antipyrinum",
+      "standard_abbrev": "Antip.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Apis.",
+      "full_name": "Apis Mellifera",
+      "standard_abbrev": "Apis",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Apoc. c.",
+      "full_name": "Apocynum cannabinum",
+      "standard_abbrev": "Apoc.",
+      "common_name": "Indian Hemp (American)",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Apoc. e.",
+      "full_name": "Apocynum cannabinum",
+      "standard_abbrev": "Apoc.",
+      "common_name": "Indian Hemp (American)",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "APOMOR.",
+      "full_name": "Apomorphinum muriaticum",
+      "standard_abbrev": "Apom.",
+      "common_name": "Apomorphia Hydrochloride",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Aral.",
+      "full_name": "Aralia Racemosa",
+      "standard_abbrev": "Aral.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Aran.",
+      "full_name": "Aranea Diadema",
+      "standard_abbrev": "Aran.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Arg.",
+      "full_name": "Argentum Metallicum",
+      "standard_abbrev": "Arg.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Arg. Arn.",
+      "full_name": "Argentum Metallicum & Arnica montana",
+      "standard_abbrev": "Arg + Arn",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Arg. n.",
+      "full_name": "Argentum Nitricum",
+      "standard_abbrev": "Arg-n.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Argn. n.",
+      "full_name": "Argentum nitricum",
+      "standard_abbrev": "Arg-n.",
+      "common_name": "Nitrate of Silver",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Arn.",
+      "full_name": "Arnica montana",
+      "standard_abbrev": "Arn.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Arn. Ars.",
+      "full_name": "Arnica montana & Arsenicum album",
+      "standard_abbrev": "Arn. + Ars.",
+      "common_name": "Arn & Ars",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Ars.",
+      "full_name": "Arsenicum album",
+      "standard_abbrev": "Ars.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Ars. Asaf.",
+      "full_name": "Arsenicum album & Asafoetida",
+      "standard_abbrev": "Ars. + Asaf.",
+      "common_name": "Ars & Asaf",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Ars. iod.",
+      "full_name": "Arsenicum iodatum",
+      "standard_abbrev": "Ars-i.",
+      "common_name": "Iodide of Arsenic",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Arum. t.",
+      "full_name": "Arum Triphyllum",
+      "standard_abbrev": "Arum-t.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Asaf.",
+      "full_name": "Asa foetida",
+      "standard_abbrev": "Asaf.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Asaf. Asar.",
+      "full_name": "Asafoetida & Asarum europaeum",
+      "standard_abbrev": "Asaf. + Asar.",
+      "common_name": "Asaf & Asar",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Asaf. Bell.",
+      "full_name": "Asafoetida & Belladonna",
+      "standard_abbrev": "Asaf. + Bell.",
+      "common_name": "Asaf & Bell",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Asar.",
+      "full_name": "Asarum europaeum",
+      "standard_abbrev": "Asar.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Asar. Aur.",
+      "full_name": "Asarum europaeum & Aurum metallicum",
+      "standard_abbrev": "Asar + Aur",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Asc. c.",
+      "full_name": "Asclepias Cornuti",
+      "standard_abbrev": "Asc-c.",
+      "common_name": "{\"Asclepias Syriaca\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Asc. t.",
+      "full_name": "Asclepias Tuberosa",
+      "standard_abbrev": "Asc-t.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Aspar.",
+      "full_name": "Asparagus Officinalis",
+      "standard_abbrev": "Aspar.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ast. r.",
+      "full_name": "Asterias rubens",
+      "standard_abbrev": "Ast-r.",
+      "common_name": "Starfish",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Atrop.",
+      "full_name": "Atropinum",
+      "standard_abbrev": "Atro.",
+      "common_name": "Atropine (Alkaloid of Belladonna)",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Aur.",
+      "full_name": "Aurum metallicum",
+      "standard_abbrev": "Aur.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Aur. Bar. c.",
+      "full_name": "Aurum metallicum & Baryta carbonica",
+      "standard_abbrev": "Aur. + Bar-c.",
+      "common_name": "Aur & Bar-c",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Aur. m. n.",
+      "full_name": "Aurum Muriaticum Natronatum",
+      "standard_abbrev": "Aur-m-n.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Bad.",
+      "full_name": "Badiaga",
+      "standard_abbrev": "Bad.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Bap.",
+      "full_name": "Baptisia tinctoria",
+      "standard_abbrev": "Bapt.",
+      "common_name": "Wild Indigo",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Bap.. Bell.",
+      "full_name": "Baptisia tinctoria & Belladonna",
+      "standard_abbrev": "Bap + Bell",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Bar.",
+      "full_name": "Baryta carbonica",
+      "standard_abbrev": "Bar-c.",
+      "common_name": "Carbonate of Barium",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Bar. ac.",
+      "full_name": "Baryta acetica",
+      "standard_abbrev": "Bar-act.",
+      "common_name": "Acetate of Barium",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Bar. c.",
+      "full_name": "Baryta carbonica",
+      "standard_abbrev": "Bar-c.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Bar. c.. Caust.",
+      "full_name": "Baryta carbonica & Causticum",
+      "standard_abbrev": "Bar-c. + Caust.",
+      "common_name": "Bar-c & Caust",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Bar. m.",
+      "full_name": "Baryta Muriatica",
+      "standard_abbrev": "Bar-m.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Bay.",
+      "full_name": "Baptisia tinctoria",
+      "standard_abbrev": "Bapt.",
+      "common_name": "Wild Indigo",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Bell.",
+      "full_name": "Belladonna",
+      "standard_abbrev": "Bell.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Bell. Bry.",
+      "full_name": "Belladonna & Bryonia alba",
+      "standard_abbrev": "Bell. + Bry.",
+      "common_name": "Bell & Bry",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Bell. c.",
+      "full_name": "Belladonna",
+      "standard_abbrev": "Bell.",
+      "common_name": "Deadly Nightshade",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Benz. ac.",
+      "full_name": "Benzoicum Acidum",
+      "standard_abbrev": "Benz-ac.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Bep.",
+      "full_name": "Baptisia tinctoria",
+      "standard_abbrev": "Bapt.",
+      "common_name": "Wild Indigo",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Berb.",
+      "full_name": "Berberis Vulgaris",
+      "standard_abbrev": "Berb.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Bism.",
+      "full_name": "Bismuthum",
+      "standard_abbrev": "Bism.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Bism.; Bry.",
+      "full_name": "Bismuthum & Bryonia alba",
+      "standard_abbrev": "Bism; + Bry",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Bor.",
+      "full_name": "Borax",
+      "standard_abbrev": "Bor.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Bor. ac.",
+      "full_name": "Boricum Acidum",
+      "standard_abbrev": "Bor-ac.",
+      "common_name": "{\"Boracicum Acidum\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Bor. Bry.",
+      "full_name": "Borax & Bryonia alba",
+      "standard_abbrev": "Bor + Bry",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Bov.",
+      "full_name": "Bovista",
+      "standard_abbrev": "Bov.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Bov. Brom.",
+      "full_name": "Bovista & Bromium",
+      "standard_abbrev": "Bov. + Brom.",
+      "common_name": "Bov & Brom",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Bov. Bry.",
+      "full_name": "Bovista & Bryonia alba",
+      "standard_abbrev": "Bov. + Bry.",
+      "common_name": "Bov & Bry",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "BRACH.",
+      "full_name": "Brachyglottis Repanda",
+      "standard_abbrev": "Brach.",
+      "common_name": "{\"Brachyglottis Repens\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Brom.",
+      "full_name": "Bromum",
+      "standard_abbrev": "Brom.",
+      "common_name": "{Bromium}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Bry.",
+      "full_name": "Bryonia alba",
+      "standard_abbrev": "Bry.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Bry. Cact.",
+      "full_name": "Bryonia alba & Cactus grandiflorus",
+      "standard_abbrev": "Bry. + Cact.",
+      "common_name": "Bry & Cact",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Bry. Calad.",
+      "full_name": "Bryonia alba & Caladium seguinum",
+      "standard_abbrev": "Bry. + Calad.",
+      "common_name": "Bry & Calad",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Bry. Calc. c.",
+      "full_name": "Bryonia alba & Calcarea carbonica",
+      "standard_abbrev": "Bry. + Calc.",
+      "common_name": "Bry & Calc",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Buf.",
+      "full_name": "Bufo rana",
+      "standard_abbrev": "Bufo",
+      "common_name": "Toad Poison",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Bufo.",
+      "full_name": "Bufo Rana",
+      "standard_abbrev": "Bufo",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "C.mic.",
+      "full_name": "Cimicifuga racemosa",
+      "standard_abbrev": "Cimic.",
+      "common_name": "Black Cohosh",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cact.",
+      "full_name": "Cactus Grandiflorus",
+      "standard_abbrev": "Cact.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cad. s.",
+      "full_name": "Cadmium sulphuratum",
+      "standard_abbrev": "Cadm-s.",
+      "common_name": "Sulphide of Cadmium",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Caj.",
+      "full_name": "Cajuputum",
+      "standard_abbrev": "Caj.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Calad.",
+      "full_name": "Caladium seguinum",
+      "standard_abbrev": "Calad.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "CALC.",
+      "full_name": "Calcarea carbonica",
+      "standard_abbrev": "Calc.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Calc. ac.",
+      "full_name": "Calcarea acetica",
+      "standard_abbrev": "Calc-act.",
+      "common_name": "Acetate of Lime",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Calc. c.",
+      "full_name": "Calcarea carbonica",
+      "standard_abbrev": "Calc.",
+      "common_name": "Carbonate of Lime",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Calc. c. Camph.",
+      "full_name": "Calcarea carbonica & Camphora",
+      "standard_abbrev": "Calc. + Camph.",
+      "common_name": "Calc & Camph",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Calc. f.",
+      "full_name": "Calcarea Fluorica",
+      "standard_abbrev": "Calc-f.",
+      "common_name": "{\"Calcarea Fluorata\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Calc. fl.",
+      "full_name": "Calcarea fluorica",
+      "standard_abbrev": "Calc-f.",
+      "common_name": "Fluoride of Lime",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Calc. i.",
+      "full_name": "Calcarea Iodata",
+      "standard_abbrev": "Calc-i.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Calc. iod.",
+      "full_name": "Calcarea iodata",
+      "standard_abbrev": "Calc-i.",
+      "common_name": "Iodide of Lime",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Calc. m.",
+      "full_name": "Calcarea Muriatica",
+      "standard_abbrev": "Calc-m.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Calc. p.",
+      "full_name": "Calcarea Phosphorica",
+      "standard_abbrev": "Calc-p.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Calc. ph.",
+      "full_name": "Calcarea phosphorica",
+      "standard_abbrev": "Calc-p.",
+      "common_name": "Phosphate of Lime",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Calend.",
+      "full_name": "Calendula officinalis",
+      "standard_abbrev": "Calen.",
+      "common_name": "Marigold",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Calot.",
+      "full_name": "Calotropis gigantea",
+      "standard_abbrev": "Calo.",
+      "common_name": "Madar Bark",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Camph.",
+      "full_name": "Camphora",
+      "standard_abbrev": "Camph.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Canab. s.",
+      "full_name": "Cannabis sativa",
+      "standard_abbrev": "Cann-s.",
+      "common_name": "Hemp",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Canch.",
+      "full_name": "Canchalagua",
+      "standard_abbrev": "Canch.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cannab.",
+      "full_name": "Cannabis sativa",
+      "standard_abbrev": "Cann-s.",
+      "common_name": "Hemp",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Cannab. i.",
+      "full_name": "Cannabis indica",
+      "standard_abbrev": "Cann-i.",
+      "common_name": "Indian Hemp / Hashish",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cannab. s.",
+      "full_name": "Cannabis sativa",
+      "standard_abbrev": "Cann-s.",
+      "common_name": "Hemp",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Cannab. t.",
+      "full_name": "Cannabis sativa",
+      "standard_abbrev": "Cann-s.",
+      "common_name": "Hemp",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Canst.",
+      "full_name": "Causticum",
+      "standard_abbrev": "Caust.",
+      "common_name": "Hahnemanns Tinctura Acris",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Canth.",
+      "full_name": "Cantharis",
+      "standard_abbrev": "Canth.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Caps.",
+      "full_name": "Capsicum annuum",
+      "standard_abbrev": "Caps.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Carb. ac.",
+      "full_name": "Carbolicum Acidum",
+      "standard_abbrev": "Carb-ac.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Carb. an.",
+      "full_name": "Carbo animalis",
+      "standard_abbrev": "Carb-an.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Carb. n.",
+      "full_name": "Carboneum",
+      "standard_abbrev": "Carbn.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Carb. s.",
+      "full_name": "Carboneum sulphuratum",
+      "standard_abbrev": "Carbn-s.",
+      "common_name": "Bisulphide of Carbon",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Carb. sul.",
+      "full_name": "Carboneum sulphuratum",
+      "standard_abbrev": "Carbn-s.",
+      "common_name": "Bisulphide of Carbon",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Carb. v.",
+      "full_name": "Carbo vegetabilis",
+      "standard_abbrev": "Carb-v.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Carb. v. Cham.",
+      "full_name": "Carbo vegetabilis & Chamomilla",
+      "standard_abbrev": "Carb-v. + Cham.",
+      "common_name": "Carb-v & Cham",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Card.",
+      "full_name": "Carduus marianus",
+      "standard_abbrev": "Card-m.",
+      "common_name": "St. Marys Thistle",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Card. m.",
+      "full_name": "Carduus Marianus",
+      "standard_abbrev": "Card-m.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Caul.",
+      "full_name": "Caulophyllum Thalictroides",
+      "standard_abbrev": "Caul.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Caust.",
+      "full_name": "Causticum",
+      "standard_abbrev": "Caust.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Caust. Cic.",
+      "full_name": "Causticum & Cicuta virosa",
+      "standard_abbrev": "Caust. + Cic.",
+      "common_name": "Caust & Cic",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Caust. Croc.",
+      "full_name": "Causticum & Crocus sativus",
+      "standard_abbrev": "Caust. + Croc.",
+      "common_name": "Caust & Croc",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Cean.",
+      "full_name": "Ceanothus Americanus",
+      "standard_abbrev": "Cean.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ced.",
+      "full_name": "Cedron",
+      "standard_abbrev": "Cedr.",
+      "common_name": "Rattlesnake Bean",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cereum.",
+      "full_name": "Cerium oxalicum",
+      "standard_abbrev": "Cer-ox.",
+      "common_name": "Oxalate of Cerium",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cerevisia.",
+      "full_name": "Cerevisia fermentum",
+      "standard_abbrev": "Cerev.",
+      "common_name": "Bakers Yeast",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cerium.",
+      "full_name": "Cerium oxalicum",
+      "standard_abbrev": "Cer-ox.",
+      "common_name": "Oxalate of Cerium",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cham.",
+      "full_name": "Chamomilla",
+      "standard_abbrev": "Cham.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Cham. Chel.",
+      "full_name": "Chamomilla & Chelidonium majus",
+      "standard_abbrev": "Cham. + Chel.",
+      "common_name": "Cham & Chel",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Chel.",
+      "full_name": "Chelidonium majus",
+      "standard_abbrev": "Chel.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Chem.",
+      "full_name": "Chamomilla",
+      "standard_abbrev": "Cham.",
+      "common_name": "German Chamomile",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Chen. a.",
+      "full_name": "Chenopodium Ambrosioides & Var. Anthelminticum",
+      "standard_abbrev": "Chen-a.",
+      "common_name": "{\"Chenopodium Anthelminticum\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Chim.",
+      "full_name": "Chimaphila Umbellata",
+      "standard_abbrev": "Chim.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Chin.",
+      "full_name": "China officinalis",
+      "standard_abbrev": "Chin.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Chin. Cic.",
+      "full_name": "Cinchona & Cicuta virosa",
+      "standard_abbrev": "Chin. + Cic.",
+      "common_name": "Chin & Cic",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "CHIN. S.",
+      "full_name": "Chininum Sulphuricum",
+      "standard_abbrev": "Chin-s.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Chin.; Cimic.",
+      "full_name": "China officinalis & Cimicifuga Racemosa",
+      "standard_abbrev": "Chin; + Cimic",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "China.",
+      "full_name": "Cinchona officinalis (China)",
+      "standard_abbrev": "Chin.",
+      "common_name": "Peruvian Bark",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Chln.",
+      "full_name": "Chlorum",
+      "standard_abbrev": "Chlo.",
+      "common_name": "Chlorine Gas in Water",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Chloral.",
+      "full_name": "Chloralum hydratum",
+      "standard_abbrev": "Chlol.",
+      "common_name": "Chloral Hydrate",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Chlorum.",
+      "full_name": "Chlorum",
+      "standard_abbrev": "Chlo.",
+      "common_name": "Chlorine Gas in Water",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Chrom. ac.",
+      "full_name": "Chromicum acidum",
+      "standard_abbrev": "Chro-ac.",
+      "common_name": "Chromic Acid",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cic.",
+      "full_name": "Cicuta virosa",
+      "standard_abbrev": "Cic.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Cimic.",
+      "full_name": "Cimicifuga Racemosa",
+      "standard_abbrev": "Cimic.",
+      "common_name": "{\"Actaea Racemosa\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cimic. Cocc.",
+      "full_name": "Cimicifuga racemosa & Cocculus indicus",
+      "standard_abbrev": "Cimic. + Cocc.",
+      "common_name": "Cimic & Cocc",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Cina.",
+      "full_name": "Cina",
+      "standard_abbrev": "Cina",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Cinnab.",
+      "full_name": "Cinnabaris",
+      "standard_abbrev": "Cinnb.",
+      "common_name": "Red Sulphide of Mercury",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cinnam.",
+      "full_name": "Cinnamomum Zeylanicum",
+      "standard_abbrev": "Cinnam.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cist.",
+      "full_name": "Cistus Canadensis",
+      "standard_abbrev": "Cist.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cit. ac.",
+      "full_name": "Citricum Acidum",
+      "standard_abbrev": "Cit-ac.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Citri succus.",
+      "full_name": "Citrus limonum (Succus citri)",
+      "standard_abbrev": "Cit-l.",
+      "common_name": "Lemon Juice",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Clem.",
+      "full_name": "Clematis erecta",
+      "standard_abbrev": "Clem.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "CLEM.. Cocc.",
+      "full_name": "Clem & Cocculus indicus",
+      "standard_abbrev": "Clem. + Cocc.",
+      "common_name": "Clem & Cocc",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Cob.",
+      "full_name": "Cobaltum Metallicum",
+      "standard_abbrev": "Cob.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Coc.",
+      "full_name": "Cocculus indicus",
+      "standard_abbrev": "Cocc.",
+      "common_name": "Indian Cockle",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Coc. c.",
+      "full_name": "Cocculus indicus",
+      "standard_abbrev": "Cocc.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Coca.",
+      "full_name": "Coca",
+      "standard_abbrev": "Coca",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cocaine.",
+      "full_name": "Cocainum",
+      "standard_abbrev": "Cocaine",
+      "common_name": "Cocaine Hydrochloride",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cocc.",
+      "full_name": "Cocculus indicus",
+      "standard_abbrev": "Cocc.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Cocc. c.",
+      "full_name": "Coccus cacti",
+      "standard_abbrev": "Cocc-c.",
+      "common_name": "Cochineal",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "COCC.. Coff.",
+      "full_name": "Cocculus indicus & Coffea cruda",
+      "standard_abbrev": "COCC + Coff",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Coccin.",
+      "full_name": "Coccinella septempunctata",
+      "standard_abbrev": "Coccin.",
+      "common_name": "Lady-Bird",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Coce.",
+      "full_name": "Cocculus indicus",
+      "standard_abbrev": "Cocc.",
+      "common_name": "Indian Cockle",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Cod.",
+      "full_name": "Codeinum",
+      "standard_abbrev": "Cod.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Coff.",
+      "full_name": "Coffea cruda",
+      "standard_abbrev": "Coff.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Coff. Puls.",
+      "full_name": "Coffea cruda & Pulsatilla",
+      "standard_abbrev": "Coff + Puls",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Col.",
+      "full_name": "Colchicum autumnale",
+      "standard_abbrev": "Colch.",
+      "common_name": "Meadow Saffron",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Colch.",
+      "full_name": "Colchicum autumnale",
+      "standard_abbrev": "Colch.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Colch.; Con.",
+      "full_name": "Colchicum autumnale & Conium maculatum",
+      "standard_abbrev": "Colch; + Con",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Coll.",
+      "full_name": "Collinsonia Canadensis",
+      "standard_abbrev": "Coll.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Coloc.",
+      "full_name": "Colocynthis",
+      "standard_abbrev": "Coloc.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Coloc.. Con.",
+      "full_name": "Colocynthis & Conium maculatum",
+      "standard_abbrev": "Coloc + Con",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Com.",
+      "full_name": "Comocladia Dentata",
+      "standard_abbrev": "Com.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Con.",
+      "full_name": "Conium maculatum",
+      "standard_abbrev": "Con.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Con. Croc.",
+      "full_name": "Conium maculatum & Crocus sativus",
+      "standard_abbrev": "Con + Croc",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Con.. Cup.",
+      "full_name": "Conium maculatum & Cuprum metallicum",
+      "standard_abbrev": "Con. + Cupr.",
+      "common_name": "Con & Cupr",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Conv.",
+      "full_name": "Convallaria Majalis",
+      "standard_abbrev": "Conv.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cop.",
+      "full_name": "Copaiva Officinalis",
+      "standard_abbrev": "Cop.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cor.",
+      "full_name": "Corallium rubrum",
+      "standard_abbrev": "Cor-r.",
+      "common_name": "Red Coral",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Coral.",
+      "full_name": "Corallium rubrum",
+      "standard_abbrev": "Cor-r.",
+      "common_name": "Red Coral",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Corn.",
+      "full_name": "Cornus Circinata",
+      "standard_abbrev": "Corn.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Corn. c.",
+      "full_name": "Cornus circinata",
+      "standard_abbrev": "Corn.",
+      "common_name": "Round-Leaved Dogwood",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Corn. f.",
+      "full_name": "Cornus Florida",
+      "standard_abbrev": "Corn-f.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Coust.",
+      "full_name": "Causticum",
+      "standard_abbrev": "Caust.",
+      "common_name": "Hahnemanns Tinctura Acris",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Crep.",
+      "full_name": "Kreosotum",
+      "standard_abbrev": "Kreos.",
+      "common_name": "Creosote (Beechwood)",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Croc.",
+      "full_name": "Crocus sativus",
+      "standard_abbrev": "Croc.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Crot. tig.",
+      "full_name": "Croton tiglium",
+      "standard_abbrev": "Croto-t.",
+      "common_name": "Croton Oil Seeds",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Crotal.",
+      "full_name": "Crotalus horridus",
+      "standard_abbrev": "Crot-h.",
+      "common_name": "Rattlesnake Venom",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Crotal. Fer.",
+      "full_name": "Crotalus horridus & Ferrum metallicum",
+      "standard_abbrev": "Crot-h. + Ferr.",
+      "common_name": "Crot-h & Ferr",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Crotul.",
+      "full_name": "Crotalus horridus",
+      "standard_abbrev": "Crot-h.",
+      "common_name": "Rattlesnake Venom",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ctmic.",
+      "full_name": "Cimicifuga racemosa",
+      "standard_abbrev": "Cimic.",
+      "common_name": "Black Cohosh",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cuar.",
+      "full_name": "Curare",
+      "standard_abbrev": "Cur.",
+      "common_name": "Arrow Poison",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cub.",
+      "full_name": "Cubeba Officinalis",
+      "standard_abbrev": "Cub.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cucur.",
+      "full_name": "Cucurbita pepo",
+      "standard_abbrev": "Cuc-p.",
+      "common_name": "Pumpkin Seed",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Culad.",
+      "full_name": "Caladium seguinum",
+      "standard_abbrev": "Calad.",
+      "common_name": "American Arum",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Cund.",
+      "full_name": "Cundurango",
+      "standard_abbrev": "Cund.",
+      "common_name": "{Condurango}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cunth.",
+      "full_name": "Cantharis",
+      "standard_abbrev": "Canth.",
+      "common_name": "Spanish Fly",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Cup.",
+      "full_name": "Cuprum metallicum",
+      "standard_abbrev": "Cupr.",
+      "common_name": "Copper",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Cur.",
+      "full_name": "Curare",
+      "standard_abbrev": "Cur.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cura.",
+      "full_name": "Curare",
+      "standard_abbrev": "Cur.",
+      "common_name": "Arrow Poison",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Cyc.",
+      "full_name": "Cyclamen europaeum",
+      "standard_abbrev": "Cycl.",
+      "common_name": "Sow-Bread",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Dig.",
+      "full_name": "Digitalis purpurea",
+      "standard_abbrev": "Dig.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Dig. Dros.",
+      "full_name": "Digitalis & Drosera",
+      "standard_abbrev": "Dig. + Dros.",
+      "common_name": "Dig & Dros",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Dios.",
+      "full_name": "Dioscorea Villosa",
+      "standard_abbrev": "Dios.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Dios.. Dros.",
+      "full_name": "Dioscorea Villosa & Drosera rotundifolia",
+      "standard_abbrev": "Dios + Dros",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Diosc.",
+      "full_name": "Dioscorea villosa",
+      "standard_abbrev": "Dios.",
+      "common_name": "Wild Yam",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Dirc.",
+      "full_name": "Dirca Palustris",
+      "standard_abbrev": "Dirc.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Dirca.",
+      "full_name": "Dirca palustris",
+      "standard_abbrev": "Dirc.",
+      "common_name": "Leatherwood",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Dol.",
+      "full_name": "Dolichos Pruriens",
+      "standard_abbrev": "Dol.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Dols.",
+      "full_name": "Dolichos pruriens",
+      "standard_abbrev": "Dol.",
+      "common_name": "Cowhage",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Dros.",
+      "full_name": "Drosera rotundifolia",
+      "standard_abbrev": "Dros.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Dros. Dulc.",
+      "full_name": "Drosera rotundifolia & Dulcamara",
+      "standard_abbrev": "Dros. + Dulc.",
+      "common_name": "Dros & Dulc",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Dub.",
+      "full_name": "Duboisinum + Dubo-M. (Alte Abk.)",
+      "standard_abbrev": "Dub.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Dul.",
+      "full_name": "Dulcamara",
+      "standard_abbrev": "Dulc.",
+      "common_name": "Bittersweet",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Dulc.",
+      "full_name": "Dulcamara",
+      "standard_abbrev": "Dulc.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Elaps.",
+      "full_name": "Elaps Corallinus",
+      "standard_abbrev": "Elaps",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Elat.",
+      "full_name": "Elaterium",
+      "standard_abbrev": "Elat.",
+      "common_name": "{\"Elaterium Officinarum\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Electric.",
+      "full_name": "Electricitas",
+      "standard_abbrev": "Electr.",
+      "common_name": "Electricity",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Epiph.",
+      "full_name": "Epiphegus Virginicus",
+      "standard_abbrev": "Epiph.",
+      "common_name": "{\"Orobanche Virginiana\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Equi.",
+      "full_name": "Equisetum hyemale",
+      "standard_abbrev": "Equis.",
+      "common_name": "Scouring Rush",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Equis.",
+      "full_name": "Equisetum Hyemale",
+      "standard_abbrev": "Equis.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Erig.",
+      "full_name": "Erigeron Canadense",
+      "standard_abbrev": "Erig.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Eryng.",
+      "full_name": "Eryngium aquaticum",
+      "standard_abbrev": "Ery-a.",
+      "common_name": "Button Snake-Root",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Eucal.",
+      "full_name": "Eucalyptus Globulus",
+      "standard_abbrev": "Eucal.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Euon.",
+      "full_name": "Euonymus Europaea",
+      "standard_abbrev": "Euon.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Eup. per.",
+      "full_name": "Eupatorium Perfoliatum",
+      "standard_abbrev": "Eup-per.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Eup. pur.",
+      "full_name": "Eupatorium Purpureum",
+      "standard_abbrev": "Eup-pur.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Euph.",
+      "full_name": "Euphorbium",
+      "standard_abbrev": "Euph.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Euphor.",
+      "full_name": "Euphorbium",
+      "standard_abbrev": "Euph.",
+      "common_name": "Spurge Flax",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Euphorb.",
+      "full_name": "Euphorbium",
+      "standard_abbrev": "Euph.",
+      "common_name": "Spurge Flax",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Euphr.",
+      "full_name": "Euphrasia officinalis",
+      "standard_abbrev": "Euphr.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Euphurb.",
+      "full_name": "Euphorbium",
+      "standard_abbrev": "Euph.",
+      "common_name": "Spurge Flax",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Eur. per.",
+      "full_name": "Eupatorium perfoliatum",
+      "standard_abbrev": "Eup-per.",
+      "common_name": "Boneset / Thoroughwort",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Fer.",
+      "full_name": "Ferrum metallicum",
+      "standard_abbrev": "Ferr.",
+      "common_name": "Iron",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Fer. Eup. per.",
+      "full_name": "Ferrum metallicum & Eupatorium perfoliatum",
+      "standard_abbrev": "Ferr. + Eup-per.",
+      "common_name": "Ferr & Eup-per",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Fer. iod.",
+      "full_name": "Ferrum iodatum",
+      "standard_abbrev": "Ferr-i.",
+      "common_name": "Iodide of Iron",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Fer. ph.",
+      "full_name": "Ferrum phosphoricum",
+      "standard_abbrev": "Ferr-p.",
+      "common_name": "Phosphate of Iron",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Fer. phos.",
+      "full_name": "Ferrum phosphoricum",
+      "standard_abbrev": "Ferr-p.",
+      "common_name": "Phosphate of Iron",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Fes.",
+      "full_name": "Ferrum metallicum",
+      "standard_abbrev": "Ferr.",
+      "common_name": "Iron",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Fl. ac.",
+      "full_name": "Fluoricum Acidum",
+      "standard_abbrev": "Fl-ac.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Form.",
+      "full_name": "Formica Rufa",
+      "standard_abbrev": "Form.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Gam.",
+      "full_name": "Gambogia",
+      "standard_abbrev": "Gamb.",
+      "common_name": "Gummi Gutti",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Gel.",
+      "full_name": "Gelsemium sempervirens",
+      "standard_abbrev": "Gels.",
+      "common_name": "Yellow Jasmine",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Gels.",
+      "full_name": "Gelsemium Sempervirens",
+      "standard_abbrev": "Gels.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Gent. l.",
+      "full_name": "Gentiana Lutea",
+      "standard_abbrev": "Gent-l.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Gins.",
+      "full_name": "Ginseng Quinquefolium",
+      "standard_abbrev": "Gins.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Glon.",
+      "full_name": "Glonoinum",
+      "standard_abbrev": "Glon.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Glon. Graph.",
+      "full_name": "Glonoinum & Graphites",
+      "standard_abbrev": "Glon. + Graph.",
+      "common_name": "Glon & Graph",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Gnap.",
+      "full_name": "Gnaphalium polycephalum",
+      "standard_abbrev": "Gnaph.",
+      "common_name": "Cud-Weed",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Gnaph.",
+      "full_name": "Gnaphalium Polycephalum",
+      "standard_abbrev": "Gnaph.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Goss.",
+      "full_name": "Gossypium Herbaceum",
+      "standard_abbrev": "Goss.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Gram.",
+      "full_name": "Granatum",
+      "standard_abbrev": "Gran.",
+      "common_name": "Pomegranate Bark",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Gran.",
+      "full_name": "Granatum",
+      "standard_abbrev": "Gran.",
+      "common_name": "{Pelletierine,\"Punica Granatum\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Graph HYOS.",
+      "full_name": "Graphites & Hyoscyamus niger",
+      "standard_abbrev": "Graph + HYOS",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Graph.",
+      "full_name": "Graphites",
+      "standard_abbrev": "Graph.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Graph. LYC.",
+      "full_name": "Graphites & Lycopodium clavatum",
+      "standard_abbrev": "Graph + LYC",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Grat.",
+      "full_name": "Gratiola Officinalis",
+      "standard_abbrev": "Grat.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Grind.",
+      "full_name": "Grindelia robusta",
+      "standard_abbrev": "Grin.",
+      "common_name": "Rosin-Wood",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Guai.",
+      "full_name": "Guajacum Officinale",
+      "standard_abbrev": "Guai.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ham.",
+      "full_name": "Hamamelis Virginiana",
+      "standard_abbrev": "Ham.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Hap.",
+      "full_name": "Hepar sulphuris calcareum",
+      "standard_abbrev": "Hep.",
+      "common_name": "Hahnemanns Calcium Sulphide",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Hell.",
+      "full_name": "Helleborus niger",
+      "standard_abbrev": "Hell.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Hell. Hep.",
+      "full_name": "Helleborus niger & Hepar sulphuris",
+      "standard_abbrev": "Hell. + Hep.",
+      "common_name": "Hell & Hep",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Hell.; Hyos.",
+      "full_name": "Helleborus niger & Hyoscyamus niger",
+      "standard_abbrev": "Hell; + Hyos",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Helo.",
+      "full_name": "Heloderma (+ -h., + -s.)",
+      "standard_abbrev": "Helo.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Hep.",
+      "full_name": "Hepar sulphuris calcareum",
+      "standard_abbrev": "Hep.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Hep.. Ign.",
+      "full_name": "Hepar sulphuris & Ignatia amara",
+      "standard_abbrev": "Hep. + Ign.",
+      "common_name": "Hep & Ign",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Hep.. Merc.",
+      "full_name": "Hepar sulphuris & Mercurius solubilis",
+      "standard_abbrev": "Hep. + Merc.",
+      "common_name": "Hep & Merc",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Hum.",
+      "full_name": "Humulus lupulus",
+      "standard_abbrev": "Lup.",
+      "common_name": "Hops",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Hyd. ac.",
+      "full_name": "Hydrocyanicum acidum",
+      "standard_abbrev": "Hydr-ac.",
+      "common_name": "Prussic Acid",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Hyd. ac.. Hyos.",
+      "full_name": "Hydrocyanicum acidum & Hyoscyamus",
+      "standard_abbrev": "Hydr-ac. + Hyos.",
+      "common_name": "Hydr-ac & Hyos",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Hydr. ac.",
+      "full_name": "Hydrocyanicum Acidum",
+      "standard_abbrev": "Hydr-ac.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Hydras.",
+      "full_name": "Hydrastis canadensis",
+      "standard_abbrev": "Hydr.",
+      "common_name": "Golden Seal",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Hydroc.",
+      "full_name": "Hydrocotyle asiatica",
+      "standard_abbrev": "Hydrc.",
+      "common_name": "Indian Pennywort",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Hyos.",
+      "full_name": "Hyoscyamus niger",
+      "standard_abbrev": "Hyos.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Hyos.. Ign.",
+      "full_name": "Hyoscyamus niger & Ignatia amara",
+      "standard_abbrev": "Hyos + Ign",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Hyper.",
+      "full_name": "Hypericum Perforatum",
+      "standard_abbrev": "Hyper.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Hyper.. Hyos.",
+      "full_name": "Hypericum Perforatum & Hyoscyamus niger",
+      "standard_abbrev": "Hyper + Hyos",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Ign.",
+      "full_name": "Ignatia amara",
+      "standard_abbrev": "Ign.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Iod.",
+      "full_name": "Iodium",
+      "standard_abbrev": "Iod.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Iod. IP.",
+      "full_name": "Iodum & Ipecacuanha",
+      "standard_abbrev": "Iod. + Ip.",
+      "common_name": "Iod & Ip",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Iodof.",
+      "full_name": "Iodoformium",
+      "standard_abbrev": "Iodof.",
+      "common_name": "{Iodoformum}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ip.",
+      "full_name": "Ipecacuanha",
+      "standard_abbrev": "Ip.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Iris v.",
+      "full_name": "Iris versicolor",
+      "standard_abbrev": "Iris",
+      "common_name": "Blue Flag",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Iris.",
+      "full_name": "Iris Versicolor",
+      "standard_abbrev": "Iris",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Jab.",
+      "full_name": "Jaborandi",
+      "standard_abbrev": "Jab.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Jal.",
+      "full_name": "Jalapa",
+      "standard_abbrev": "Jal.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Jalap.",
+      "full_name": "Jalapa",
+      "standard_abbrev": "Jal.",
+      "common_name": "Jalap Root",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Jat.",
+      "full_name": "Jatropha curcas",
+      "standard_abbrev": "Jatr.",
+      "common_name": "Purging Nut",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Jod.",
+      "full_name": "Iodum",
+      "standard_abbrev": "Iod.",
+      "common_name": "Iodine",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Jug.",
+      "full_name": "Juglans cinerea",
+      "standard_abbrev": "Jug-c.",
+      "common_name": "Butternut",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Jug. c.",
+      "full_name": "Juglans Cinerea",
+      "standard_abbrev": "Jug-c.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Jug. r.",
+      "full_name": "Juglans Regia",
+      "standard_abbrev": "Jug-r.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "K. b.",
+      "full_name": "Kali bichromicum",
+      "standard_abbrev": "Kali-bi.",
+      "common_name": "Bichromate of Potash",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "K. bi.",
+      "full_name": "Kali bichromicum",
+      "standard_abbrev": "Kali-bi.",
+      "common_name": "Bichromate of Potash",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "K. Bl.",
+      "full_name": "Kali bichromicum",
+      "standard_abbrev": "Kali-bi.",
+      "common_name": "Bichromate of Potash",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "K. br.",
+      "full_name": "Kali bromatum",
+      "standard_abbrev": "Kali-br.",
+      "common_name": "Bromide of Potash",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "K. carb.",
+      "full_name": "Kali carbonicum",
+      "standard_abbrev": "Kali-c.",
+      "common_name": "Carbonate of Potassium",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "K. carb. K. nit.",
+      "full_name": "Kali carbonicum & Kali nitricum",
+      "standard_abbrev": "Kali-c. + Kali-n.",
+      "common_name": "Kali-c & Kali-n",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "K. carb. Nat. c.",
+      "full_name": "Kali carbonicum & Natrum carbonicum",
+      "standard_abbrev": "Kali-c. + Nat-c.",
+      "common_name": "Kali-c & Nat-c",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "K. chl.",
+      "full_name": "Kali chloricum",
+      "standard_abbrev": "Kali-chl.",
+      "common_name": "Chlorate of Potassium",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "K. iod.",
+      "full_name": "Kali iodatum",
+      "standard_abbrev": "Kali-i.",
+      "common_name": "Iodide of Potash",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "K. m.",
+      "full_name": "Kali muriaticum",
+      "standard_abbrev": "Kali-m.",
+      "common_name": "Chloride of Potassium",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "K. nit.",
+      "full_name": "Kali nitricum",
+      "standard_abbrev": "Kali-n.",
+      "common_name": "Nitre / Saltpetre",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "K. nit. Lach.",
+      "full_name": "Kali nitricum & Lachesis",
+      "standard_abbrev": "Kali-n. + Lach.",
+      "common_name": "Kali-n & Lach",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "K. nit.. Kre.",
+      "full_name": "Kali nitricum & Kreosotum",
+      "standard_abbrev": "Kali-n. + Kreos.",
+      "common_name": "Kali-n & Kreos",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Kali.",
+      "full_name": "Kali (Potassium Group)",
+      "standard_abbrev": "Kali",
+      "common_name": "Potash Group",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Kalm.",
+      "full_name": "Kalmia Latifolia",
+      "standard_abbrev": "Kalm.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Kit. nit.",
+      "full_name": "Kali nitricum",
+      "standard_abbrev": "Kali-n.",
+      "common_name": "Nitre / Saltpetre",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Kre.",
+      "full_name": "Kreosotum",
+      "standard_abbrev": "Kreos.",
+      "common_name": "Creosote (Beechwood)",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Kre. Lach.",
+      "full_name": "Kreosotum & Lachesis",
+      "standard_abbrev": "Kreos. + Lach.",
+      "common_name": "Kreos & Lach",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Kre.. Lil. t.",
+      "full_name": "Kreosotum & Lilium tigrinum",
+      "standard_abbrev": "Kreos. + Lil-t.",
+      "common_name": "Kreos & Lil-t",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Lac.",
+      "full_name": "Lac defloratum",
+      "standard_abbrev": "Lac-d.",
+      "common_name": "Skimmed Cow Milk",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Lach.",
+      "full_name": "Lachesis",
+      "standard_abbrev": "Lach.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Lact.",
+      "full_name": "Lactuca Virosa",
+      "standard_abbrev": "Lact.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Lap.",
+      "full_name": "Lapis albus",
+      "standard_abbrev": "Lap-a.",
+      "common_name": "Gneiss Stone",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Laur.",
+      "full_name": "Laurocerasus",
+      "standard_abbrev": "Laur.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Led.",
+      "full_name": "Ledum palustre",
+      "standard_abbrev": "Led.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Led.. Lyc.",
+      "full_name": "Ledum palustre & Lycopodium clavatum",
+      "standard_abbrev": "Led + Lyc",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Lept.",
+      "full_name": "Leptandra Virginica",
+      "standard_abbrev": "Lept.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Li. t.",
+      "full_name": "Lithium carbonicum",
+      "standard_abbrev": "Lith-c.",
+      "common_name": "Carbonate of Lithium",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Lil.",
+      "full_name": "Lilium tigrinum",
+      "standard_abbrev": "Lil-t.",
+      "common_name": "Tiger Lily",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Lil. t.",
+      "full_name": "Lilium Tigrinum",
+      "standard_abbrev": "Lil-t.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "LIL. TIG.",
+      "full_name": "Lilium tigrinum",
+      "standard_abbrev": "Lil-t.",
+      "common_name": "Tiger Lily",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Lit. t.",
+      "full_name": "Lilium tigrinum",
+      "standard_abbrev": "Lil-t.",
+      "common_name": "Tiger Lily",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Lith.",
+      "full_name": "Lithium carbonicum",
+      "standard_abbrev": "Lith-c.",
+      "common_name": "Carbonate of Lithium",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Lith. lact.",
+      "full_name": "Lithium lacticum",
+      "standard_abbrev": "Lith-l.",
+      "common_name": "Lactate of Lithium",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Lob. i.",
+      "full_name": "Lobelia inflata",
+      "standard_abbrev": "Lob.",
+      "common_name": "Indian Tobacco",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "LOBI.",
+      "full_name": "Lobelia inflata",
+      "standard_abbrev": "Lob.",
+      "common_name": "Indian Tobacco",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Lyc.",
+      "full_name": "Lycopodium clavatum",
+      "standard_abbrev": "Lyc.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Lyc. Meny.",
+      "full_name": "Lycopodium clavatum & Menyanthes trifoliata",
+      "standard_abbrev": "Lyc + Meny",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Lyc. Merc.",
+      "full_name": "Lycopodium clavatum & Mercurius vivus",
+      "standard_abbrev": "Lyc + Merc",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Lycps.",
+      "full_name": "Lycopus Virginicus",
+      "standard_abbrev": "Lycps.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Mag.",
+      "full_name": "Magnesia carbonica",
+      "standard_abbrev": "Mag-c.",
+      "common_name": "Carbonate of Magnesia",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Mag. c.",
+      "full_name": "Magnesia carbonica",
+      "standard_abbrev": "Mag-c.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Mag. m.",
+      "full_name": "Magnesia muriatica",
+      "standard_abbrev": "Mag-m.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Magn. m.",
+      "full_name": "Magnesia muriatica",
+      "standard_abbrev": "Mag-m.",
+      "common_name": "Muriate of Magnesia",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Magnol.",
+      "full_name": "Magnolia grandiflora",
+      "standard_abbrev": "Magn-gl.",
+      "common_name": "Magnolia",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Mang.",
+      "full_name": "Manganum aceticum",
+      "standard_abbrev": "Mang.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Mar.",
+      "full_name": "Teucrium marum verum",
+      "standard_abbrev": "Teucr.",
+      "common_name": "Cat-Thyme",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Mar. Meny.",
+      "full_name": "Teucrium marum verum & Menyanthes trifoliata",
+      "standard_abbrev": "Mar + Meny",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Maug.",
+      "full_name": "Manganum aceticum / metallicum",
+      "standard_abbrev": "Mang.",
+      "common_name": "Manganese",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "May. m.",
+      "full_name": "Magnesia muriatica",
+      "standard_abbrev": "Mag-m.",
+      "common_name": "Muriate of Magnesia",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Maynol.",
+      "full_name": "Magnolia grandiflora",
+      "standard_abbrev": "Magn-gl.",
+      "common_name": "Magnolia",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Meli.",
+      "full_name": "Melilotus Officinalis",
+      "standard_abbrev": "Meli.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Meng.",
+      "full_name": "Menyanthes trifoliata",
+      "standard_abbrev": "Meny.",
+      "common_name": "Buckbean",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Menth.",
+      "full_name": "Mentha Piperita",
+      "standard_abbrev": "Menth.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Meny.",
+      "full_name": "Menyanthes trifoliata",
+      "standard_abbrev": "Meny.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Meph.",
+      "full_name": "Mephitis Putorius",
+      "standard_abbrev": "Meph.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Merc.",
+      "full_name": "Mercurius vivus",
+      "standard_abbrev": "Merc.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Merc. c.",
+      "full_name": "Mercurius Corrosivus",
+      "standard_abbrev": "Merc-c.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Merc. cor.",
+      "full_name": "Mercurius corrosivus",
+      "standard_abbrev": "Merc-c.",
+      "common_name": "Corrosive Sublimate",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Merc. cy.",
+      "full_name": "Mercurius Cyanatus",
+      "standard_abbrev": "Merc-cy.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Merc. d.",
+      "full_name": "Mercurius Dulcis",
+      "standard_abbrev": "Merc-d.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Merc. i. f.",
+      "full_name": "Mercurius Iodatus Flavus",
+      "standard_abbrev": "Merc-i-f.",
+      "common_name": "{\"Mercurius Protoiodatus\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Merc. i. r.",
+      "full_name": "Mercurius Iodatus Ruber",
+      "standard_abbrev": "Merc-i-r.",
+      "common_name": "{\"Mercurius Biniodatus\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Merc. n.",
+      "full_name": "Mercurius Nitricus",
+      "standard_abbrev": "Merc-n.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Merc. Phos.",
+      "full_name": "Mercurius solubilis & Phosphorus",
+      "standard_abbrev": "Merc. + Phos.",
+      "common_name": "Merc & Phos",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Merc.. Rhus.",
+      "full_name": "Mercurius & Rhus toxicodendron",
+      "standard_abbrev": "Merc. + Rhus-t.",
+      "common_name": "Merc & Rhus-t",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Mex.",
+      "full_name": "Mezereum",
+      "standard_abbrev": "Mez.",
+      "common_name": "Spurge Olive",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Mez.",
+      "full_name": "Mezereum",
+      "standard_abbrev": "Mez.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Mill.",
+      "full_name": "Millefolium Herba",
+      "standard_abbrev": "Mill.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Millef.",
+      "full_name": "Millefolium",
+      "standard_abbrev": "Mill.",
+      "common_name": "Yarrow",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Mos.",
+      "full_name": "Moschus",
+      "standard_abbrev": "Mosch.",
+      "common_name": "Musk",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Mosch.",
+      "full_name": "Moschus",
+      "standard_abbrev": "Mosch.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Mur. ac.",
+      "full_name": "Muriaticum acidum",
+      "standard_abbrev": "Mur-ac.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Mur. ac. Plat.",
+      "full_name": "Muriaticum acidum & Platinum",
+      "standard_abbrev": "Mur-ac. + Plat.",
+      "common_name": "Mur-ac & Plat",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Murex.",
+      "full_name": "Murex purpurea",
+      "standard_abbrev": "Murx.",
+      "common_name": "Purple Fish",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Myr.",
+      "full_name": "Myrica cerifera",
+      "standard_abbrev": "Myric.",
+      "common_name": "Bayberry / Wax Myrtle",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Na.. c.",
+      "full_name": "Natrum carbonicum",
+      "standard_abbrev": "Nat-c.",
+      "common_name": "Carbonate of Soda",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "nab. i.",
+      "full_name": "Cannabis indica",
+      "standard_abbrev": "Cann-i.",
+      "common_name": "Indian Hemp",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Nab. s.",
+      "full_name": "Cannabis sativa",
+      "standard_abbrev": "Cann-s.",
+      "common_name": "Hemp",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Nac. c.",
+      "full_name": "Natrum carbonicum",
+      "standard_abbrev": "Nat-c.",
+      "common_name": "Carbonate of Soda",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Nag. m.",
+      "full_name": "Naja tripudians",
+      "standard_abbrev": "Naja",
+      "common_name": "Cobra Venom",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Naj.",
+      "full_name": "Naja tripudians",
+      "standard_abbrev": "Naja",
+      "common_name": "Cobra Venom",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Naph.",
+      "full_name": "Naphthalinum",
+      "standard_abbrev": "Naph.",
+      "common_name": "Naphthaline (Tar Product)",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Nat.",
+      "full_name": "Natrum carbonicum",
+      "standard_abbrev": "Nat-c.",
+      "common_name": "Carbonate of Soda",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Nat. a.",
+      "full_name": "Natrum arsenicosum",
+      "standard_abbrev": "Nat-ar.",
+      "common_name": "Arseniate of Soda",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Nat. ac.",
+      "full_name": "Natrum aceticum",
+      "standard_abbrev": "Nat-act.",
+      "common_name": "Acetate of Soda",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Nat. ars.",
+      "full_name": "Natrum arsenicosum",
+      "standard_abbrev": "Nat-ar.",
+      "common_name": "Arseniate of Soda",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Nat. c.",
+      "full_name": "Natrum carbonicum",
+      "standard_abbrev": "Nat-c.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "NAT. C. Nat. m.",
+      "full_name": "Natrum carbonicum & Natrum muriaticum",
+      "standard_abbrev": "Nat-c. + Nat-m.",
+      "common_name": "Nat-c & Nat-m",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Nat. c. Nux m.",
+      "full_name": "Natrum carbonicum & Nux moschata",
+      "standard_abbrev": "Nat-c. + Nux-m.",
+      "common_name": "Nat-c & Nux-m",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Nat. e.",
+      "full_name": "Natrum carbonicum",
+      "standard_abbrev": "Nat-c.",
+      "common_name": "Carbonate of Soda",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Nat. m.",
+      "full_name": "Natrum muriaticum",
+      "standard_abbrev": "Nat-m.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Nat. m. Nux m.",
+      "full_name": "Natrum muriaticum & Nux moschata",
+      "standard_abbrev": "Nat-m. + Nux-m.",
+      "common_name": "Nat-m & Nux-m",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Nat. n.",
+      "full_name": "Natrium Nitricum",
+      "standard_abbrev": "Nat-n.",
+      "common_name": "{\"Natrum Nitricum\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Nat. s.",
+      "full_name": "Natrium Sulphuricum",
+      "standard_abbrev": "Nat-s.",
+      "common_name": "{\"Natrum Sulphuricum\"}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Nia ac.",
+      "full_name": "Nitricum acidum",
+      "standard_abbrev": "Nit-ac.",
+      "common_name": "Nitric Acid",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "NIT. A C.",
+      "full_name": "Nitricum acidum",
+      "standard_abbrev": "Nit-ac.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Nit. ac.",
+      "full_name": "Nitricum acidum",
+      "standard_abbrev": "Nit-ac.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Nit. ac. Nux v.",
+      "full_name": "Nitricum acidum & Nux vomica",
+      "standard_abbrev": "Nit-ac. + Nux-v.",
+      "common_name": "Nit-ac & Nux-v",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Nux m.",
+      "full_name": "Nux moschata",
+      "standard_abbrev": "Nux-m.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Nux v.",
+      "full_name": "Nux vomica",
+      "standard_abbrev": "Nux-v.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Nux v. Petrol.",
+      "full_name": "Nux vomica & Petroleum",
+      "standard_abbrev": "Nux-v. + Petr.",
+      "common_name": "Nux-v & Petr",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Nux v. Rhus.",
+      "full_name": "Nux vomica & Rhus toxicodendron",
+      "standard_abbrev": "Nux-v. + Rhus-t.",
+      "common_name": "Nux-v & Rhus-t",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Nuxv.",
+      "full_name": "Nux vomica",
+      "standard_abbrev": "Nux-v.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Nuz v.",
+      "full_name": "Nux vomica",
+      "standard_abbrev": "Nux-v.",
+      "common_name": "Poison Nut",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Oci.",
+      "full_name": "Ocimum Canum",
+      "standard_abbrev": "Oci.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Oenan.",
+      "full_name": "Oenanthe crocata",
+      "standard_abbrev": "Oena.",
+      "common_name": "Water Hemlock",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Oenot.",
+      "full_name": "Oenothera biennis",
+      "standard_abbrev": "Oeno.",
+      "common_name": "Evening Primrose",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Oleand Op.",
+      "full_name": "Oleander & Opium",
+      "standard_abbrev": "Oleand. + Op.",
+      "common_name": "Oleand & Op",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Oleand.",
+      "full_name": "Oleander",
+      "standard_abbrev": "Oleand.",
+      "common_name": "Rose Laurel",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Onos.",
+      "full_name": "Onosmodium Virginianum",
+      "standard_abbrev": "Onos.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Op.",
+      "full_name": "Opium",
+      "standard_abbrev": "Op.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Op. PHOS.",
+      "full_name": "Opium & Phosphorus",
+      "standard_abbrev": "Op + PHOS",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Osm.",
+      "full_name": "Osmium Metallicum (+ -ac.)",
+      "standard_abbrev": "Osm.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ox. ac.",
+      "full_name": "Oxalicum Acidum",
+      "standard_abbrev": "Ox-ac.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Oxyt.",
+      "full_name": "Oxytropis Lamberti",
+      "standard_abbrev": "Oxyt.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Paeo.",
+      "full_name": "Paeonia officinalis",
+      "standard_abbrev": "Paeon.",
+      "common_name": "Peony",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Pall.",
+      "full_name": "Palladium Metallicum",
+      "standard_abbrev": "Pall.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Par.",
+      "full_name": "Paris quadrifolia",
+      "standard_abbrev": "Par.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Par. Petrol.",
+      "full_name": "Paris quadrifolia & Petroleum",
+      "standard_abbrev": "Par. + Petr.",
+      "common_name": "Par & Petr",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Par. Pho. ac.",
+      "full_name": "Paris quadrifolia & Phosphoricum acidum",
+      "standard_abbrev": "Par. + Ph-ac.",
+      "common_name": "Par & Ph-ac",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Pare.",
+      "full_name": "Pareira brava",
+      "standard_abbrev": "Pareir.",
+      "common_name": "Virgin Vine",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Parei.",
+      "full_name": "Pareira brava",
+      "standard_abbrev": "Pareir.",
+      "common_name": "Virgin Vine",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Pb.",
+      "full_name": "Plumbum metallicum",
+      "standard_abbrev": "Plb.",
+      "common_name": "Lead",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Pb.. Pod.",
+      "full_name": "Plumbum metallicum & Podophyllum",
+      "standard_abbrev": "Plb. + Podo.",
+      "common_name": "Plb & Podo",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "per.",
+      "full_name": "Coqueluchinum",
+      "standard_abbrev": "Per.",
+      "common_name": "{Pertussinum}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Petr.",
+      "full_name": "Petroleum",
+      "standard_abbrev": "Petr.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Petrol.",
+      "full_name": "Petroleum",
+      "standard_abbrev": "Petr.",
+      "common_name": "Rock Oil / Crude Rock-Oil",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Petrol. Phos.",
+      "full_name": "Petroleum & Phosphorus",
+      "standard_abbrev": "Petr. + Phos.",
+      "common_name": "Petr & Phos",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Petros.",
+      "full_name": "Petroselinum Sativum",
+      "standard_abbrev": "Petros.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Phel.",
+      "full_name": "Phellandrium Aquaticum",
+      "standard_abbrev": "Phel.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Pho.",
+      "full_name": "Phosphorus",
+      "standard_abbrev": "Phos.",
+      "common_name": "Phosphorus",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Pho. ac.",
+      "full_name": "Phosphoricum acidum",
+      "standard_abbrev": "Ph-ac.",
+      "common_name": "Phosphoric Acid",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Pho. ac. Plat.",
+      "full_name": "Phosphoricum acidum & Platinum",
+      "standard_abbrev": "Ph-ac. + Plat.",
+      "common_name": "Ph-ac & Plat",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Phos.",
+      "full_name": "Phosphorus",
+      "standard_abbrev": "Phos.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Phos. ac.",
+      "full_name": "Phosphoricum acidum",
+      "standard_abbrev": "Ph-ac.",
+      "common_name": "Phosphoric Acid",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Phos. Pb.",
+      "full_name": "Phosphorus & Plumbum metallicum",
+      "standard_abbrev": "Phos. + Plb.",
+      "common_name": "Phos & Plb",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Phys.",
+      "full_name": "Physostigma Venenosum",
+      "standard_abbrev": "Phys.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Phyt.",
+      "full_name": "Phytolacca Decandra",
+      "standard_abbrev": "Phyt.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Phyt. Plat.",
+      "full_name": "Phytolacca decandra & Platinum",
+      "standard_abbrev": "Phyt. + Plat.",
+      "common_name": "Phyt & Plat",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Phyt.. Puls.",
+      "full_name": "Phytolacca Decandra & Pulsatilla",
+      "standard_abbrev": "Phyt + Puls",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Pic. ac.",
+      "full_name": "Picricum Acidum",
+      "standard_abbrev": "Pic-ac.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Pic. ac.. Pso.",
+      "full_name": "Picricum acidum & Psorinum",
+      "standard_abbrev": "Pic-ac. + Psor.",
+      "common_name": "Pic-ac & Psor",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Piper.",
+      "full_name": "Piper nigrum",
+      "standard_abbrev": "Pip-n.",
+      "common_name": "Black Pepper",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Plant.",
+      "full_name": "Plantago major",
+      "standard_abbrev": "Plan.",
+      "common_name": "Plantain",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Plat.",
+      "full_name": "Platina",
+      "standard_abbrev": "Plat.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Plat. Pb.",
+      "full_name": "Platinum & Plumbum metallicum",
+      "standard_abbrev": "Plat. + Plb.",
+      "common_name": "Plat & Plb",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Plot.",
+      "full_name": "Platanus occidentalis",
+      "standard_abbrev": "Platan.",
+      "common_name": "Buttonwood / Sycamore",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Plumb.",
+      "full_name": "Plumbum metallicum",
+      "standard_abbrev": "Plb.",
+      "common_name": "Lead",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Pod.",
+      "full_name": "Podophyllum peltatum",
+      "standard_abbrev": "Podo.",
+      "common_name": "May-Apple / Mandrake",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Poly.",
+      "full_name": "Polyporus officinalis",
+      "standard_abbrev": "Polyp.",
+      "common_name": "Larch Agaric",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Polyp.",
+      "full_name": "Polyporus officinalis",
+      "standard_abbrev": "Polyp.",
+      "common_name": "Larch Agaric",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Pop. t.",
+      "full_name": "Populus tremuloides",
+      "standard_abbrev": "Pop-t.",
+      "common_name": "American Aspen",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Pru.",
+      "full_name": "Prunus spinosa",
+      "standard_abbrev": "Prun.",
+      "common_name": "Blackthorn",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Pso.",
+      "full_name": "Psorinum",
+      "standard_abbrev": "Psor.",
+      "common_name": "Psorinum / Scabies Vesicle",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Pso. PULS.",
+      "full_name": "Psorinum & Pulsatilla",
+      "standard_abbrev": "Pso + PULS",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Puls Rhus.",
+      "full_name": "Pulsatilla & Rhus toxicodendron",
+      "standard_abbrev": "Puls. + Rhus-t.",
+      "common_name": "Puls & Rhus-t",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Puls.",
+      "full_name": "Pulsatilla",
+      "standard_abbrev": "Puls.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Pär.",
+      "full_name": "Paris quadrifolia",
+      "standard_abbrev": "Par.",
+      "common_name": "One-Berry",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Pæo.",
+      "full_name": "Paeonia officinalis",
+      "standard_abbrev": "Paeon.",
+      "common_name": "Peony",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ran. b.",
+      "full_name": "Ranunculus bulbosus",
+      "standard_abbrev": "Ran-b.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Ran. b. Ran. s.",
+      "full_name": "Ranunculus bulbosus & Ranunculus sceleratus",
+      "standard_abbrev": "Ran-b. + Ran-s.",
+      "common_name": "Ran-b & Ran-s",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Ran. s.",
+      "full_name": "Ranunculus sceleratus",
+      "standard_abbrev": "Ran-s.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Ran. s.. Rheum.",
+      "full_name": "Ranunculus sceleratus & Rheum",
+      "standard_abbrev": "Ran-s. + Rheum",
+      "common_name": "Ran-s & Rheum",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Raph.",
+      "full_name": "Raphanus Sativus",
+      "standard_abbrev": "Raph.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Rat.",
+      "full_name": "Ratanhia Peruviana",
+      "standard_abbrev": "Rat.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Rheum.",
+      "full_name": "Rheum",
+      "standard_abbrev": "Rheum",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Rheum. Rhodo.",
+      "full_name": "Rheum & Rhododendron chrysanthum",
+      "standard_abbrev": "Rheum + Rhod.",
+      "common_name": "Rheum & Rhod",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Rhod.",
+      "full_name": "Rhododendron chrysanthum",
+      "standard_abbrev": "Rhod.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Rhoda.",
+      "full_name": "Rhododendron chrysanthum",
+      "standard_abbrev": "Rhod.",
+      "common_name": "Yellow Snow-Rose",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Rhodo.",
+      "full_name": "Rhododendron chrysanthum",
+      "standard_abbrev": "Rhod.",
+      "common_name": "Yellow Snow-Rose",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Rhsn.",
+      "full_name": "Rhus toxicodendron",
+      "standard_abbrev": "Rhus-t.",
+      "common_name": "Poison Ivy",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Rhus a.",
+      "full_name": "Rhus Aromatica",
+      "standard_abbrev": "Rhus-a.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Rhus t.",
+      "full_name": "Rhus toxicodendron",
+      "standard_abbrev": "Rhus-t.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Rhus.",
+      "full_name": "Rhus toxicodendron",
+      "standard_abbrev": "Rhus-t.",
+      "common_name": "Poison Ivy",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Rhus. Ruta.",
+      "full_name": "Rhus toxicodendron & Ruta graveolens",
+      "standard_abbrev": "Rhus-t. + Ruta",
+      "common_name": "Rhus-t & Ruta",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Rhvs.",
+      "full_name": "Rhus toxicodendron",
+      "standard_abbrev": "Rhus-t.",
+      "common_name": "Poison Ivy",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Rob.",
+      "full_name": "Robinia Pseudacacia",
+      "standard_abbrev": "Rob.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Rumex.",
+      "full_name": "Rumex crispus",
+      "standard_abbrev": "Rumx.",
+      "common_name": "Yellow Dock",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ruta.",
+      "full_name": "Ruta graveolens",
+      "standard_abbrev": "Ruta",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Ruta; Saba.",
+      "full_name": "Ruta graveolens & Sabadilla",
+      "standard_abbrev": "Ruta; + Saba",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Saba.",
+      "full_name": "Sabadilla",
+      "standard_abbrev": "Sabad.",
+      "common_name": "Cevadilla Seeds",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Saba. Sabi.",
+      "full_name": "Sabadilla & Sabina",
+      "standard_abbrev": "Sabad. + Sabin.",
+      "common_name": "Sabad & Sabin",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Sabi.",
+      "full_name": "Sabina",
+      "standard_abbrev": "Sabin.",
+      "common_name": "Savin",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Sabi. Sep.",
+      "full_name": "Sabina & Sepia",
+      "standard_abbrev": "Sabin. + Sep.",
+      "common_name": "Sabin & Sep",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Sabi.. Samb.",
+      "full_name": "Sabina & Sambucus nigra",
+      "standard_abbrev": "Sabi + Samb",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Saccharum.",
+      "full_name": "Saccharum officinale",
+      "standard_abbrev": "Sacch.",
+      "common_name": "Cane Sugar",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Sal.",
+      "full_name": "Salix nigra",
+      "standard_abbrev": "Sal-n.",
+      "common_name": "Black Willow",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Sal. ac.",
+      "full_name": "Salicylicum Acidum",
+      "standard_abbrev": "Sal-ac.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Salvia off.",
+      "full_name": "Salvia officinalis",
+      "standard_abbrev": "Sal-o.",
+      "common_name": "Garden Sage",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Samb.",
+      "full_name": "Sambucus nigra",
+      "standard_abbrev": "Samb.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Samb.. Sars.",
+      "full_name": "Sambucus nigra & Sarsaparilla",
+      "standard_abbrev": "Samb + Sars",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Sang.",
+      "full_name": "Sanguinaria Canadensis",
+      "standard_abbrev": "Sang.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Sang. n.",
+      "full_name": "Sanguinaria nitrica",
+      "standard_abbrev": "Sang-n.",
+      "common_name": "Nitrate of Sanguinarine",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Sant.",
+      "full_name": "Santoninum",
+      "standard_abbrev": "Sant.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Sant. Sars.",
+      "full_name": "Santoninum & Sarsaparilla",
+      "standard_abbrev": "Sant. + Sars.",
+      "common_name": "Sant & Sars",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Sars.",
+      "full_name": "Sarsaparilla",
+      "standard_abbrev": "Sars.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Sars. Sec. c.",
+      "full_name": "Sarsaparilla & Secale cornutum",
+      "standard_abbrev": "Sars. + Sec.",
+      "common_name": "Sars & Sec",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Sba.",
+      "full_name": "Sabadilla",
+      "standard_abbrev": "Sabad.",
+      "common_name": "Cevadilla Seeds",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Sec.",
+      "full_name": "Secale cornutum",
+      "standard_abbrev": "Sec.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Sec. c.",
+      "full_name": "Secale cornutum",
+      "standard_abbrev": "Sec.",
+      "common_name": "Ergot of Rye",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Sec. c.. Seneg.",
+      "full_name": "Secale cornutum & Senega",
+      "standard_abbrev": "Sec. + Seneg.",
+      "common_name": "Sec & Seneg",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Sel.",
+      "full_name": "Selenium",
+      "standard_abbrev": "Sel.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Sele.",
+      "full_name": "Selenium",
+      "standard_abbrev": "Selen.",
+      "common_name": "Selenium",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Sem. carvi.",
+      "full_name": "Carum carvi (Semina carvi)",
+      "standard_abbrev": "Carvi",
+      "common_name": "Caraway Seeds",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Senec.",
+      "full_name": "Senecio Aureus",
+      "standard_abbrev": "Senec.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Seneg.",
+      "full_name": "Senega",
+      "standard_abbrev": "Seneg.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "SENN.",
+      "full_name": "Senna",
+      "standard_abbrev": "Senn.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Sep.",
+      "full_name": "Sepia",
+      "standard_abbrev": "Sep.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Sep. Sil.",
+      "full_name": "Sepia & Silicea",
+      "standard_abbrev": "Sep + Sil",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Sep. Staph.",
+      "full_name": "Sepia & Staphysagria",
+      "standard_abbrev": "Sep + Staph",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Serpentaria.",
+      "full_name": "Aristolochia serpentaria",
+      "standard_abbrev": "Arist-s.",
+      "common_name": "Virginia Snake-Root",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Sil.",
+      "full_name": "Silicea",
+      "standard_abbrev": "Sil.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Sil. Spig.",
+      "full_name": "Silicea & Spigelia anthelmia",
+      "standard_abbrev": "Sil. + Spig.",
+      "common_name": "Sil & Spig",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Sin.",
+      "full_name": "Sinapis nigra",
+      "standard_abbrev": "Sin-n.",
+      "common_name": "Black Mustard",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Spig.",
+      "full_name": "Spigelia anthelmia",
+      "standard_abbrev": "Spig.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Spig. Squ.",
+      "full_name": "Spigelia & Squilla maritima",
+      "standard_abbrev": "Spig. + Squil.",
+      "common_name": "Spig & Squil",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Spig. Staph.",
+      "full_name": "Spigelia & Staphysagria",
+      "standard_abbrev": "Spig. + Staph.",
+      "common_name": "Spig & Staph",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Spir. nit. d.",
+      "full_name": "Spiritus nitri dulcis",
+      "standard_abbrev": "Spir-n-d.",
+      "common_name": "Sweet Spirit of Nitre",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Spir. nit. dul.",
+      "full_name": "Spiritus nitri dulcis",
+      "standard_abbrev": "Spir-n-d.",
+      "common_name": "Sweet Spirit of Nitre",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Spir. nit. dulc.",
+      "full_name": "Spiritus nitri dulcis",
+      "standard_abbrev": "Spir-n-d.",
+      "common_name": "Sweet Spirit of Nitre",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Spir. vini.",
+      "full_name": "Spiritus vini",
+      "standard_abbrev": "Spir-v.",
+      "common_name": "Alcohol / Spirit of Wine",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Spo.",
+      "full_name": "Spongia tosta",
+      "standard_abbrev": "Spong.",
+      "common_name": "Roasted Sponge",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "SPO.. Squ.",
+      "full_name": "Spongia tosta & Squilla maritima",
+      "standard_abbrev": "Spong. + Squil.",
+      "common_name": "Spong & Squil",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Squ.",
+      "full_name": "Squilla maritima",
+      "standard_abbrev": "Squil.",
+      "common_name": "Sea Onion",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Squ. Stan.",
+      "full_name": "Squilla maritima & Stannum metallicum",
+      "standard_abbrev": "Squil. + Stann.",
+      "common_name": "Squil & Stann",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Stam.",
+      "full_name": "Stannum metallicum",
+      "standard_abbrev": "Stann.",
+      "common_name": "Tin",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Stan.",
+      "full_name": "Stannum metallicum",
+      "standard_abbrev": "Stann.",
+      "common_name": "Tin",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Stan. Staph.",
+      "full_name": "Stannum & Staphysagria",
+      "standard_abbrev": "Stann. + Staph.",
+      "common_name": "Stann & Staph",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Stan. Stict.",
+      "full_name": "Stannum metallicum & Sticta Pulmonaria",
+      "standard_abbrev": "Stan + Stict",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Stan. Sul.",
+      "full_name": "Stannum & Sulphur",
+      "standard_abbrev": "Stann. + Sulph.",
+      "common_name": "Stann & Sulph",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Stan. Trill.",
+      "full_name": "Stannum metallicum & Trillium pendulum",
+      "standard_abbrev": "Stan + Trill",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "Stap.",
+      "full_name": "Staphysagria",
+      "standard_abbrev": "Staph.",
+      "common_name": "Stavesacre",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Staph.",
+      "full_name": "Staphysagria",
+      "standard_abbrev": "Staph.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Staph. Sul.",
+      "full_name": "Staphysagria & Sulphur",
+      "standard_abbrev": "Staph. + Sulph.",
+      "common_name": "Staph & Sulph",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Stapn.",
+      "full_name": "Staphysagria",
+      "standard_abbrev": "Staph.",
+      "common_name": "Stavesacre",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Stict.",
+      "full_name": "Sticta Pulmonaria",
+      "standard_abbrev": "Stict.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Still.",
+      "full_name": "Stillingia Sylvatica",
+      "standard_abbrev": "Still.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Sto.",
+      "full_name": "Strontium carbonicum",
+      "standard_abbrev": "Stront-c.",
+      "common_name": "Carbonate of Strontia",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Stram.",
+      "full_name": "Stramonium",
+      "standard_abbrev": "Stram.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Stran.",
+      "full_name": "Stramonium",
+      "standard_abbrev": "Stram.",
+      "common_name": "Thorn-Apple",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Stro.",
+      "full_name": "Strontium carbonicum",
+      "standard_abbrev": "Stront-c.",
+      "common_name": "Carbonate of Strontia",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Stro. Sul.",
+      "full_name": "Strontium carbonicum & Sulphur",
+      "standard_abbrev": "Stront-c. + Sulph.",
+      "common_name": "Stront-c & Sulph",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Stro. Tar.",
+      "full_name": "Strontium carbonicum & Taraxacum",
+      "standard_abbrev": "Stront-c. + Tarax.",
+      "common_name": "Stront-c & Tarax",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Strop.",
+      "full_name": "Strophanthus hispidus",
+      "standard_abbrev": "Stroph.",
+      "common_name": "Kombe Seed",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Strum.",
+      "full_name": "Stramonium",
+      "standard_abbrev": "Stram.",
+      "common_name": "Thorn-Apple",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Succus. citri.",
+      "full_name": "Citrus limonum (Succus citri)",
+      "standard_abbrev": "Cit-l.",
+      "common_name": "Lemon Juice",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Sui.",
+      "full_name": "Sulphur",
+      "standard_abbrev": "Sulph.",
+      "common_name": "Brimstone",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Sul.",
+      "full_name": "Sulphur",
+      "standard_abbrev": "Sulph.",
+      "common_name": "Brimstone / Sublimed Sulphur",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Sul. ac.",
+      "full_name": "Sulphuricum Acidum",
+      "standard_abbrev": "Sul-ac.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Sul. ac. Ther.",
+      "full_name": "Sulphuricum acidum & Theridion",
+      "standard_abbrev": "Sul-ac. + Ther.",
+      "common_name": "Sul-ac & Ther",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Sul. Sul. ac.",
+      "full_name": "Sulphur & Sulphuricum acidum",
+      "standard_abbrev": "Sulph. + Sul-ac.",
+      "common_name": "Sulph & Sul-ac",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Sul. Tab.",
+      "full_name": "Sulphur & Tabacum",
+      "standard_abbrev": "Sul + Tab",
+      "common_name": "Compound OCR token",
+      "source": "ocr-compound-resolved",
+      "core125": false
+    },
+    {
+      "abbrev": "SUL.. Sul. ac. Thuj.",
+      "full_name": "Sulphur, Sulphuricum acidum & Thuja",
+      "standard_abbrev": "Sulph. + Sul-ac. + Thuj.",
+      "common_name": "Sulph, Sul-ac & Thuj",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Sulph.",
+      "full_name": "Sulphur",
+      "standard_abbrev": "Sulph.",
+      "common_name": "{Sulfur}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Sum.",
+      "full_name": "Sumbul",
+      "standard_abbrev": "Sumb.",
+      "common_name": "Musk-Root",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Sup.",
+      "full_name": "Sulphur",
+      "standard_abbrev": "Sulph.",
+      "common_name": "Brimstone",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Tab.",
+      "full_name": "Tabacum",
+      "standard_abbrev": "Tab.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Tan.",
+      "full_name": "Tanacetum vulgare",
+      "standard_abbrev": "Tanac.",
+      "common_name": "Tansy",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Tar.",
+      "full_name": "Taraxacum officinale",
+      "standard_abbrev": "Tarax.",
+      "common_name": "Dandelion",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Tar. Thuj.",
+      "full_name": "Taraxacum & Thuja occidentalis",
+      "standard_abbrev": "Tarax. + Thuj.",
+      "common_name": "Tarax & Thuj",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Tare.",
+      "full_name": "Taraxacum officinale",
+      "standard_abbrev": "Tarax.",
+      "common_name": "Dandelion",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Tarent.",
+      "full_name": "Tarentula Hispanica",
+      "standard_abbrev": "Tarent.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Tell.",
+      "full_name": "Tellurium",
+      "standard_abbrev": "Tell.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ter.",
+      "full_name": "Terebinthiniae Oleum",
+      "standard_abbrev": "Ter.",
+      "common_name": "{Terebinthina}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Thal.",
+      "full_name": "Thallium Metallicum (+ -act.)",
+      "standard_abbrev": "Thal.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Thea.",
+      "full_name": "Thea Chinensis",
+      "standard_abbrev": "Thea",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ther.",
+      "full_name": "Theridion Curassavicum",
+      "standard_abbrev": "Ther.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Thlasp.",
+      "full_name": "Thlaspi bursa pastoris",
+      "standard_abbrev": "Thlaspi",
+      "common_name": "Shepherds Purse",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Thos.",
+      "full_name": "Phosphorus",
+      "standard_abbrev": "Phos.",
+      "common_name": "Phosphorus",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Throm.",
+      "full_name": "Trombidium muscae",
+      "standard_abbrev": "Tromb.",
+      "common_name": "Harvest Mite",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Thuj.",
+      "full_name": "Thuja occidentalis",
+      "standard_abbrev": "Thuj.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Thuj. Valer.",
+      "full_name": "Thuja occidentalis & Valeriana",
+      "standard_abbrev": "Thuj. + Valer.",
+      "common_name": "Thuj & Valer",
+      "source": "compound-ocr",
+      "core125": false
+    },
+    {
+      "abbrev": "Trill.",
+      "full_name": "Trillium pendulum",
+      "standard_abbrev": "Tril.",
+      "common_name": "White Beth-Root",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Trom.",
+      "full_name": "Trombidium Muscae Domesticae",
+      "standard_abbrev": "Trom.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Tub.",
+      "full_name": "Tuberculinum Bovinum Kent",
+      "standard_abbrev": "Tub.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ura.",
+      "full_name": "Uranium nitricum",
+      "standard_abbrev": "Uran-n.",
+      "common_name": "Nitrate of Uranium",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Urt.",
+      "full_name": "Urtica urens",
+      "standard_abbrev": "Urt-u.",
+      "common_name": "Stinging Nettle",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Usn.",
+      "full_name": "Usnea Barbata",
+      "standard_abbrev": "Usn.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ust.",
+      "full_name": "Ustilago Maydis",
+      "standard_abbrev": "Ust.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Uva.",
+      "full_name": "Uva Ursi",
+      "standard_abbrev": "Uva",
+      "common_name": "{Uva-Ursi}",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Valer.",
+      "full_name": "Valeriana officinalis",
+      "standard_abbrev": "Valer.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Varat. a.",
+      "full_name": "Veratrum album",
+      "standard_abbrev": "Verat.",
+      "common_name": "White Hellebore",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Vebat. v.",
+      "full_name": "Veratrum viride",
+      "standard_abbrev": "Verat-v.",
+      "common_name": "Green Hellebore",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Verat. a.",
+      "full_name": "Veratrum album",
+      "standard_abbrev": "Verat.",
+      "common_name": "White Hellebore",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Verat. v.",
+      "full_name": "Veratrum Viride",
+      "standard_abbrev": "Verat-v.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Verb.",
+      "full_name": "Verbascum thapsus",
+      "standard_abbrev": "Verb.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Vert. a.",
+      "full_name": "Veratrum album",
+      "standard_abbrev": "Verat.",
+      "common_name": "White Hellebore",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Verut. a.",
+      "full_name": "Veratrum album",
+      "standard_abbrev": "Verat.",
+      "common_name": "White Hellebore",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Vesp.",
+      "full_name": "Vespa Crabro",
+      "standard_abbrev": "Vesp.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Vib. op.",
+      "full_name": "Viburnum opulus",
+      "standard_abbrev": "Vib.",
+      "common_name": "High Cranberry / Cramp Bark",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Vib. pr.",
+      "full_name": "Viburnum prunifolium",
+      "standard_abbrev": "Vib-p.",
+      "common_name": "Black Haw",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Vic. t.",
+      "full_name": "Viola tricolor",
+      "standard_abbrev": "Vio-t.",
+      "common_name": "Pansy / Heartsease",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Vinc.",
+      "full_name": "Vinca Minor",
+      "standard_abbrev": "Vinc.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Vinum.",
+      "full_name": "Vinum",
+      "standard_abbrev": "Vinum",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Vio. o.",
+      "full_name": "Viola odorata",
+      "standard_abbrev": "Vio-o.",
+      "common_name": "Sweet-Scented Violet",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Vio. t.",
+      "full_name": "Viola tricolor",
+      "standard_abbrev": "Vio-t.",
+      "common_name": "Pansy / Heartsease",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Viola o.",
+      "full_name": "Viola odorata",
+      "standard_abbrev": "Vio-o.",
+      "common_name": "Sweet-Scented Violet",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Vip.",
+      "full_name": "Vipera Berus",
+      "standard_abbrev": "Vip.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Vip. op.",
+      "full_name": "Viburnum opulus",
+      "standard_abbrev": "Vib.",
+      "common_name": "High Cranberry / Cramp Bark",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "Visc.",
+      "full_name": "Viscum Album",
+      "standard_abbrev": "Visc.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Wye.",
+      "full_name": "Wyethia Helenoides",
+      "standard_abbrev": "Wye.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Xan.",
+      "full_name": "Xantoxylum Fraxineum",
+      "standard_abbrev": "Xan.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Zinc.",
+      "full_name": "Zincum metallicum",
+      "standard_abbrev": "Zinc.",
+      "common_name": "",
+      "source": "core125(PD)",
+      "core125": true
+    },
+    {
+      "abbrev": "Zing.",
+      "full_name": "Zingiber Officinale",
+      "standard_abbrev": "Zing.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "Ziz.",
+      "full_name": "Zizia Aurea",
+      "standard_abbrev": "Ziz.",
+      "common_name": "",
+      "source": "oorep(ref)",
+      "core125": false
+    },
+    {
+      "abbrev": "ÆSC.",
+      "full_name": "Aesculus hippocastanum",
+      "standard_abbrev": "Aesc.",
+      "common_name": "Horse Chestnut",
+      "source": "allen1891(canonical)",
+      "core125": false
+    },
+    {
+      "abbrev": "ÆTH.",
+      "full_name": "Aethusa cynapium",
+      "standard_abbrev": "Aeth.",
+      "common_name": "Fools Parsley",
+      "source": "allen1891(canonical)",
+      "core125": false
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Folio · Local OCR Studio | ThinkHomeo.in</title>
+  <meta name="author" content="ThinkHomeo.in">
+  <meta name="application-name" content="Folio by ThinkHomeo.in">
+  <meta name="description" content="Folio by ThinkHomeo.in: scan documents, review OCR text and export your work with local processing.">
+  <link rel="stylesheet" href="/static/style.css?v=0.4.0-thinkhomeo1">
+  <link rel="stylesheet" href="/static/plain.css?v=0.4.0-thinkhomeo1">
+</head>
+<body>
+<header>
+  <div class="brand-lockup"><a class="brand" href="/">F<span>FOLIO</span></a><a class="publisher-link" href="https://thinkhomeo.in/" target="_blank" rel="noopener">ThinkHomeo.in</a></div>
+  <div class="header-caption">LOCAL OCR STUDIO <span class="dot">·</span> SCAN · EDIT · EXPORT</div>
+  <a class="setup-link" href="/setup" target="_blank" rel="noopener">System setup</a>
+  <span id="health" class="pill">Connecting</span>
+</header>
+<div class="layout">
+  <aside class="library">
+    <div class="section-label">YOUR WORKSPACE</div>
+    <h1>Turn scans into<br>editable documents.</h1>
+    <p class="muted">Read scanned pages, check the text and export your document.</p>
+    <button id="newJob" class="primary">+ Add scanned pages</button>
+    <h2 class="library-label">Documents</h2>
+    <input id="documentSearch" class="document-search" placeholder="Search documents" aria-label="Search documents">
+    <select id="documentSelect" class="document-select" aria-label="Open document"><option value="">Choose a document…</option></select>
+    <button id="deleteSelectedDocument" class="danger mobile-document-delete" type="button" disabled>Delete selected document</button>
+    <div id="jobs"></div>
+    <div class="library-foot">Local processing<br><span>Original scans and decisions stay on this computer.</span><p class="publisher-credit">A project by <a href="https://thinkhomeo.in/" target="_blank" rel="noopener">ThinkHomeo.in</a></p></div>
+  </aside>
+  <main>
+    <section id="uploadPanel" class="upload-panel">
+      <div class="section-label">NEW DOCUMENT</div>
+      <h2>Add scanned pages</h2>
+      <p class="upload-intro">Import your scans, review the extracted text, and export a finished document.</p>
+      <form id="upload">
+        <section class="upload-section" aria-labelledby="modeHeading">
+        <h3 id="modeHeading">1. Recognition mode</h3>
+        <div class="mode-options" role="radiogroup" aria-label="OCR mode">
+          <label class="mode-card">
+            <input type="radio" name="mode" value="plain" checked>
+            <span><strong>Text OCR</strong><small>Books, notes and documents → editable text</small></span>
+          </label>
+          <label class="mode-card">
+            <input type="radio" name="mode" value="structured">
+            <span><strong>Format-aware OCR</strong><small>Inspect printed styles and structured entries · TPB 1891 profile</small></span>
+          </label>
+        </div>
+        </section>
+        <section class="upload-section" aria-labelledby="detailsHeading">
+        <h3 id="detailsHeading">2. Document details</h3>
+        <div class="document-title-field">
+          <label for="documentTitle" class="field-label">Document title</label>
+          <input id="documentTitle" name="title" placeholder="Enter a descriptive document name" required maxlength="300" aria-describedby="titleHelp">
+          <p id="titleHelp" class="field-help">Use a name you can recognise in your document library.</p>
+        </div>
+          <fieldset class="page-range" aria-describedby="rangeHelp">
+            <legend>Page numbering</legend>
+            <div class="range-inputs">
+              <div><label for="startPage">First page</label><input id="startPage" name="start_page" value="0" type="number" min="0" step="1" required></div>
+              <div><label for="endPage">Last page <span class="optional-label">Optional</span></label><input id="endPage" name="end_page" type="number" min="0" step="1" placeholder="Automatic"></div>
+            </div>
+            <p id="rangeHelp" class="field-help"><strong>Use the page numbers printed in your source.</strong> Leave the last page blank to calculate it from your files. Numbering labels every uploaded page; it does not select a PDF page range.</p>
+          </fieldset>
+        <div id="plainFields" class="fields plain-fields" hidden>
+          <label>OCR language
+            <select name="language">
+              <option value="eng">English</option>
+              <option value="hin">Hindi</option>
+              <option value="eng+hin">English + Hindi</option>
+            </select>
+          </label>
+          <label>Page layout
+            <select name="layout">
+              <option value="auto">Automatic</option>
+              <option value="single-column">Single column</option>
+              <option value="uniform-block">Uniform text block</option>
+            </select>
+          </label>
+        </div>
+        <div id="structuredFields" class="fields structured-fields" hidden>
+          <label>Default Chapter (optional)<input id="uploadChapter" name="chapter" maxlength="300" placeholder="Can be assigned later in batches"></label>
+          <p id="chapterWarning" class="inline-warning">⚠ Leaving Chapter empty is allowed. Structured exports will contain an empty chapter until you inherit or batch-assign one.</p>
+        </div>
+        </section>
+        <section class="upload-section" aria-labelledby="filesHeading">
+        <h3 id="filesHeading">3. Source files</h3>
+        <label class="file-drop" for="files"><strong>Upload scans or a PDF</strong>
+          <span>Select clear, original pages in the order they should appear.</span>
+          <input id="files" name="files" type="file" accept=".png,.jpg,.jpeg,.webp,.tif,.tiff,.jp2,.pdf" multiple required aria-describedby="fileHelp fileSummary">
+          <small id="fileHelp">PNG, JPEG, WEBP, TIFF, JP2 or PDF · Up to 100 files, 500 MB total</small>
+        </label>
+        <div id="fileSummary" class="file-summary" role="status"><strong>No files added</strong><span>Select at least one scan or PDF to begin.</span></div>
+        </section>
+        <div class="form-bottom">
+          <div class="export-formats"><strong>Available exports</strong><span id="profileNote">TXT · Word (.docx) · JSON</span></div>
+          <button class="primary" id="uploadButton">Start OCR</button>
+        </div>
+        <details class="quick-guide">
+          <summary><strong>How to use Folio</strong><span>From preparing your scans to reviewing, exporting and managing documents</span></summary>
+          <div class="guide-content">
+            <section><h4>1. Prepare your source pages</h4><p>Use clear, upright scans with the entire page visible. Original images work better than screenshots with boxes or annotations. Select files in reading order. PDFs and multi-page TIFFs are processed page by page; single-page images become individual pages.</p><p><strong>Upload limits:</strong> 100 files and 500 MB in total. Supported formats are PNG, JPEG, WEBP, TIFF, JP2 and PDF.</p></section>
+            <section><h4>2. Choose the right recognition mode</h4><p><strong>Text OCR</strong> is for books, notes and ordinary documents. Choose the language printed on the page: English, Hindi, or both. Use Automatic layout first; choose Single column or Uniform text block when that matches your source.</p><p><strong>Format-aware OCR</strong> is for remedy, rubric and printed-grade entries using the TPB 1891 profile. It is not a general table or form reader. Use clean original scans for this mode.</p></section>
+            <section><h4>3. Name and number the document</h4><p>Enter a descriptive title. <strong>First page</strong> is the printed number of the first uploaded page and may be 0. <strong>Last page</strong> is optional; leave it blank to calculate it automatically.</p><p><strong>Example:</strong> Three scans starting at page 12 receive page numbers 12, 13 and 14. These fields label your scans, not a subset of PDF pages. If the expected range does not match the number of scans, all pages are kept and the actual range is shown.</p><p>In Format-aware mode, Chapter is optional. Add it now, inherit it from an earlier entry, or assign it later in a batch. Until assigned, exported Chapter values remain blank.</p></section>
+            <section><h4>4. Run OCR and review the result</h4><p>Select your files and click <strong>Start OCR</strong>. Wait for processing to finish before saving or exporting. Open a page and compare the extracted result with the original scan.</p><p>For Text OCR, correct the page text, enter your reviewer name, and choose <strong>Save page</strong> or <strong>Save &amp; next</strong>. For Format-aware OCR, select an entry from the scan or review queue, check its remedy, rubric and grade, and choose <strong>Save &amp; Next</strong>.</p><p><strong>Shortcuts:</strong> Ctrl+S saves the current review. Ctrl+Enter saves and advances. Alt+Left/Right moves between pages or incomplete entries. Unsaved changes trigger a warning before you leave a review.</p></section>
+            <section><h4>5. Resolve missing or uncertain entries</h4><p>The queue shows 50 entries at a time. Filter by status or review reason, or search for a remedy or rubric. Previous and Skip move through incomplete entries; <strong>Next incomplete page</strong> finds the next page needing attention.</p><p>In Format-aware mode, add a missing entry by drawing its box on the scan, split a merged token, or select entries to merge. Use batch assignment for Chapter or Rubric. Exclude OCR noise only when the scan contains no corresponding entry. Your reviewer name and decision history are retained.</p></section>
+            <section><h4>6. Export your document</h4><p><strong>Draft</strong> includes all extracted content. <strong>Human reviewed</strong> includes saved reviews only. Save your latest corrections before exporting. The preview shows the estimated number of rows and identifies incompatible or empty export selections.</p><p>Text OCR exports TXT, Word (.docx) and JSON. Format-aware OCR exports JSON, CSV, SQLite and SQL. SQLite and SQL require Human reviewed scope.</p></section>
+            <section><h4>7. Manage completed documents</h4><p>Use <strong>Documents</strong> to search, open or rename a saved document. The <strong>Reviewed</strong> badge means all review decisions are complete; OCR complete means processing has finished and review may still be needed.</p><p>Export anything you want to keep, then use <strong>Delete</strong> beside the document or <strong>Delete selected document</strong> on a narrow screen. A confirmation identifies the document before its scans, extracted text and review history are permanently removed. Documents still processing cannot be deleted.</p></section>
+            <section><h4>8. About Folio</h4><p>Folio is a <a href="https://thinkhomeo.in/" target="_blank" rel="noopener">ThinkHomeo.in</a> project. Visit our website to learn more about ThinkHomeo and explore its resources.</p></section>
+          </div>
+        </details>
+      </form>
+    </section>
+
+    <section id="work" hidden>
+      <div class="work-heading">
+        <div><div class="section-label" id="workLabel">DOCUMENT REVIEW</div><h2 id="jobTitle"></h2></div>
+        <div class="document-actions"><span class="pill" id="jobStatus"></span><button id="renameJob">Rename</button><button id="deleteJob" class="danger">Delete</button></div>
+      </div>
+      <div id="jobError" class="error" hidden></div>
+      <div id="jobDiagnostics" class="notice" role="status" hidden></div>
+      <p id="jobRange" class="muted"></p>
+      <div class="stats">
+        <div><span id="countPages">0</span><small>pages</small></div>
+        <div><span id="countTokens">0</span><small id="labelTokens">tokens extracted</small></div>
+        <div class="amber"><span id="countReview">0</span><small id="labelReview">need attention</small></div>
+        <div class="green"><span id="countDone">0</span><small id="labelDone">human reviewed</small></div>
+        <div class="progress-stat"><span id="reviewPercent">0%</span><small>reviewed</small></div>
+      </div>
+      <div id="progressTrack" class="progress-track" role="progressbar" aria-label="Review progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="progressFill"></span></div>
+      <div class="toolbar">
+        <label>Page <select id="pageSelect"></select></label>
+        <button id="nextIncomplete">Next incomplete page →</button>
+        <button id="montage">Review montage ↗</button>
+        <div class="spacer"></div>
+        <select id="scope" aria-label="Export scope">
+          <option value="reviewed">Human reviewed</option>
+          <option value="draft">Draft · all content</option>
+        </select>
+        <select id="format" aria-label="Export format"></select>
+        <button id="export">Export ↓</button>
+      </div>
+      <div id="exportPreview" class="export-preview" role="status"></div>
+
+      <nav id="mobileTabs" class="mobile-tabs" aria-label="Review panels">
+        <button data-panel="scan" class="active">▧ Scan</button><button data-panel="inspector">✎ Inspector</button><button data-panel="queue">☷ Queue</button>
+      </nav>
+
+      <div id="structuredReview" class="review-layout">
+        <div class="scan-column review-panel" data-panel="scan">
+          <div class="scan-label"><span>SOURCE PAGE</span><span>Click a box to inspect</span></div>
+          <div class="scan-viewport" id="scanViewport">
+            <div class="scan" id="scan"><img id="pageImage" alt="Original scan page"><svg id="overlay" xmlns="http://www.w3.org/2000/svg" aria-label="Remedy token overlays"></svg></div>
+          </div>
+          <div class="legend"><span><i style="background:#b377ce"></i>1 Parens</span><span><i style="background:#4584c8"></i>2 Roman</span><span><i style="background:#3e9578"></i>3 Italic</span><span><i style="background:#cd8b3e"></i>4 Antique</span><span><i style="background:#c2635c"></i>5 Capitals</span></div>
+          <p class="footnote">Dashed amber = needs review. Green = human reviewed. Machine agreement remains a proposal.</p>
+        </div>
+        <aside class="inspector review-panel" data-panel="inspector">
+          <div class="section-label">TOKEN INSPECTOR</div>
+          <div id="emptyInspector" class="muted">Select a token from the page or queue.</div>
+          <div id="tokenPanel" hidden>
+            <canvas id="crop" width="580" height="150" aria-label="Selected token crop"></canvas>
+            <div id="tokenMeta" class="muted"></div>
+            <form id="decision">
+              <label>Remedy<input id="remedy" required maxlength="300"></label>
+              <label>Rubric<input id="rubric" required maxlength="1000"></label>
+              <label>Chapter (optional)<input id="chapter" maxlength="300" placeholder="Inherited or batch assigned"></label>
+              <button id="inheritContext" type="button" class="quiet full">↳ Inherit Chapter &amp; Rubric from previous entry</button>
+              <label>Printed grade<select id="rank"><option value="1">1 · Roman in parentheses</option><option value="2">2 · Roman</option><option value="3">3 · Italic</option><option value="4">4 · Antique / bold</option><option value="5">5 · Capitals</option></select></label>
+              <div id="evidence"></div>
+              <label>Reviewer<input id="reviewer" placeholder="Your name" required maxlength="100"></label>
+              <label>Decision note<input id="note" placeholder="Optional" maxlength="2000"></label>
+              <div class="review-actions"><button type="button" id="previousToken">← Previous</button><button type="button" id="skipToken">Skip →</button></div>
+              <button class="primary full" id="save">Save &amp; Next →</button>
+              <button id="exclude" type="button" class="full quiet">Exclude OCR noise</button>
+            </form>
+            <details id="history"><summary>Decision history</summary><div id="historyItems"></div></details>
+          </div>
+          <div class="correction-tools">
+            <button id="addToken" type="button">＋ Add missing token</button>
+            <button id="splitToken" type="button">⇥ Split token</button>
+            <button id="mergeTokens" type="button">⇤ Merge selected</button>
+            <small id="addTokenHint" hidden>Drag a box over the missing entry on the scan. Esc cancels.</small>
+          </div>
+          <p class="shortcut-help">Ctrl+S: Save · Ctrl+Enter: Save &amp; Next · Alt+←/→: Previous/Skip · S: Skip</p>
+        </aside>
+        <aside class="queue-panel review-panel" data-panel="queue">
+          <div class="queue-heading"><div class="section-label">REVIEW QUEUE</div><select id="filter" aria-label="Token filter"><option value="needs_review">⚠ Needs attention</option><option value="machine_accepted">✓ Machine accepted</option><option value="all">All tokens</option><option value="reviewed">✓ Reviewed</option><option value="excluded">⊘ Excluded</option></select></div>
+          <select id="reasonFilter" aria-label="Review reason"><option value="all">All reasons</option></select>
+          <input id="search" placeholder="Find a remedy or rubric" aria-label="Search tokens">
+          <div id="queue"></div>
+          <div class="queue-pagination"><button id="queuePrevious" aria-label="Previous queue page">←</button><span id="queuePage" aria-live="polite"></span><button id="queueNext" aria-label="Next queue page">→</button></div>
+          <details class="batch-panel">
+            <summary>Batch assign Chapter / Rubric</summary>
+            <label>Chapter<input id="batchChapter" maxlength="300"></label>
+            <label>Rubric<input id="batchRubric" maxlength="1000"></label>
+            <label>Reviewer<input id="batchReviewer" maxlength="100"></label>
+            <label>Apply to<select id="batchScope"><option value="selected">Selected tokens</option><option value="filtered">Current filtered queue</option><option value="needs_review">All needs-attention tokens</option></select></label>
+            <button id="applyBatch" class="primary full">Apply batch assignment</button>
+          </details>
+        </aside>
+      </div>
+
+      <div id="plainReview" class="plain-layout" hidden>
+        <div class="plain-scan-column review-panel" data-panel="scan">
+          <div class="scan-label"><span>SOURCE PAGE</span><span id="plainConfidence"></span></div>
+          <div class="plain-scan-viewport"><img id="plainPageImage" alt="Original book page"></div>
+        </div>
+        <aside class="plain-editor review-panel" data-panel="inspector">
+          <div class="editor-heading"><div><div class="section-label">PAGE TRANSCRIPTION</div><strong id="plainPageLabel"></strong></div><span id="plainPageStatus" class="pill"></span></div>
+          <div id="plainReasons" class="reason" hidden></div>
+          <label class="text-label" for="plainText">Editable OCR text</label>
+          <textarea id="plainText" spellcheck="true" aria-label="Editable OCR page text"></textarea>
+          <div class="editor-meta"><span id="plainWordCount"></span><span>Ctrl+S to save</span></div>
+          <div class="fields editor-fields">
+            <label>Reviewer<input id="plainReviewer" placeholder="Your name" maxlength="100"></label>
+            <label>Decision note<input id="plainNote" placeholder="Optional" maxlength="2000"></label>
+          </div>
+          <div class="editor-actions">
+            <button id="plainPrevious" type="button">← Previous</button>
+            <button id="plainSkip" type="button">Skip →</button>
+            <button id="plainSave" type="button" class="primary">Save page</button>
+            <button id="plainSaveNext" type="button" class="primary">Save &amp; next →</button>
+            <button id="plainNext" type="button">Next →</button>
+          </div>
+          <details id="plainHistory"><summary>Page edit history</summary><div id="plainHistoryItems"></div></details>
+        </aside>
+      </div>
+    </section>
+
+    <footer class="app-credit"><span>Folio · Local OCR Studio</span><span>A project by <a href="https://thinkhomeo.in/" target="_blank" rel="noopener">ThinkHomeo.in</a></span></footer>
+  </main>
+</div>
+<div id="toast" role="status" hidden></div>
+<dialog id="inputDialog" class="input-dialog" aria-labelledby="inputDialogLabel">
+  <form id="inputDialogForm">
+    <label id="inputDialogLabel" for="inputDialogValue">Enter a value</label>
+    <textarea id="inputDialogValue" rows="3" aria-labelledby="inputDialogLabel"></textarea>
+    <div class="dialog-actions">
+      <button id="inputDialogCancel" type="button">Cancel</button>
+      <button type="submit" class="primary">Continue</button>
+    </div>
+  </form>
+</dialog>
+<dialog id="deleteDialog" class="delete-dialog" aria-labelledby="deleteDialogTitle" aria-describedby="deleteDialogHelp">
+  <h2 id="deleteDialogTitle">Delete this document?</h2>
+  <p id="deleteDocumentName" class="delete-document-name"></p>
+  <p id="deleteDialogHelp">The original scans, extracted text and review history will be permanently removed. Export anything you want to keep first.</p>
+  <p id="deleteDialogError" class="error" role="alert" hidden></p>
+  <div class="dialog-actions"><button id="cancelDelete" type="button">Cancel</button><button id="confirmDelete" type="button" class="danger-solid">Delete document</button></div>
+</dialog>
+<script src="/static/app.js?v=0.4.0-thinkhomeo1" defer></script>
+</body>
+</html>

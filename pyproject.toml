@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=69"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,6 +7,8 @@ name = "format-aware-tpb-ocr"
 version = "0.4.0"
 description = "Folio by ThinkHomeo.in: local scan transcription and format-aware OCR review"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE", "NOTICE.md"]
 authors = [{name = "ThinkHomeo.in"}]
 requires-python = ">=3.10"
 dependencies = [
@@ -20,6 +22,9 @@ test = ["httpx>=0.27,<1"]
 
 [project.urls]
 Homepage = "https://thinkhomeo.in/"
+Repository = "https://github.com/ThinkHomeo/folio-ocr-studio"
+Documentation = "https://github.com/ThinkHomeo/folio-ocr-studio#documentation"
+Issues = "https://github.com/ThinkHomeo/folio-ocr-studio/issues"
 
 [project.scripts]
 formatocr = "formatocr.__main__:main"

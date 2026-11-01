@@ -5,10 +5,14 @@
 ## तैयार फाइलें
 
 - `README.md`: ऐप का परिचय, installation, उपयोग और developer checks।
+- `CONTRIBUTING.md`: issue और pull request के लिए development निर्देश।
+- `docs/INSTALLATION.md`, `docs/TROUBLESHOOTING.md`: setup और समस्या समाधान।
+- `docs/KEYWORDS.md`: keywords, GitHub description और topics की तैयार सूची।
 - `.gitignore`: स्थानीय documents, scans, logs, environments और models बाहर रखता है।
 - `.gitattributes`: code और Windows launcher की line endings व्यवस्थित रखता है।
 - `.github/workflows/checks.yml`: push/PR पर Python और UI checks चलाता है।
-- `NOTICE.md`: attribution और अभी तक license चुना न होने की स्थिति।
+- `LICENSE`: MIT License और Think Homeo का copyright।
+- `NOTICE.md`: attribution और बाहरी reference-data के अधिकार।
 - `dist/folio-ocr-studio-github.zip`: साफ़ source ZIP।
 - `dist/folio-ocr-studio-github.manifest.json`: शामिल फाइलें और उनके SHA-256 hashes।
 
@@ -22,15 +26,16 @@ ZIP में ऐप चलाने का source है। इसमें आ
 2. सुझाया नाम: **folio-ocr-studio**। Visibility अपनी आवश्यकता के अनुसार चुनें।
 3. Description: **Local OCR studio for English and Hindi scans, document review and export by ThinkHomeo.in.**
 4. Existing files upload करने के लिए repository बनाते समय अतिरिक्त README,
-   license या `.gitignore` न जोड़ें; ये तैयार source में मौजूद हैं। License
-   चुनने पर उसे बाद में अलग से जोड़ सकते हैं।
+   license या `.gitignore` न जोड़ें; ये तैयार source में मौजूद हैं।
 5. तैयार ZIP extract करें। उसके **folio-ocr-studio** folder के अंदर की files
    और folders को **Add file → Upload files** में चुनें और commit करें। ZIP को
    अकेले upload करने से GitHub source repository नहीं बनेगी।
 6. Dot files भी शामिल हों: `.gitignore`, `.gitattributes` और `.github/`।
-   यदि browser upload में छूटें, Git वाला तरीका इस्तेमाल करें।
+   यदि `.github/` छूट जाए, **Add file → Create new file** खोलें और नाम
+   `.github/workflows/checks.yml` लिखें। तैयार local file की पूरी सामग्री
+   paste करके commit करें। GitHub इस path से folders बना देगा।
 7. Repository के **About** में Website **https://thinkhomeo.in/** जोड़ें।
-   उपयोगी topics: `ocr`, `tesseract`, `hindi`, `document-review`, `python`, `fastapi`।
+   Description और relevant topics की तैयार सूची [KEYWORDS.md](KEYWORDS.md) में है।
 8. **Actions** tab में checks का परिणाम देखें।
 
 ## तरीका 2: Git से

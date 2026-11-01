@@ -16,7 +16,7 @@ ROOT_FILES = (
     ".gitignore", ".gitattributes", "README.md", "APPLICATION.md",
     "ARCHITECTURE_REVIEW.md", "NOTICE.md", "pyproject.toml",
     "requirements-lock.txt", "run_app.bat", "setup_folio.bat",
-    "folio_bootstrap.bat", "setup_folio.py", "out/README.md",
+    "folio_bootstrap.bat", "setup_folio.py", "out/README.md", "CONTRIBUTING.md",
 )
 SOURCE_DIRS = ("formatocr", "tpbocr", "tests", "docs", ".github", "tools")
 OPTIONAL_ROOT_FILES = ("LICENSE", "LICENSE.md", "LICENSE.txt")
@@ -42,7 +42,7 @@ def source_files():
             relative = path.relative_to(ROOT)
             if not path.is_file() or any(part in SKIP_DIRS for part in relative.parts):
                 continue
-            if path.suffix in TEXT_SUFFIXES:
+            if path.suffix in TEXT_SUFFIXES or (relative.parts[:2] == ("docs", "images") and path.suffix == ".png"):
                 candidates.add(path)
     for path in sorted(candidates, key=lambda p: p.relative_to(ROOT).as_posix()):
         relative = path.relative_to(ROOT).as_posix()
@@ -53,11 +53,15 @@ def source_files():
         if path.stat().st_size > MAX_SOURCE_BYTES:
             raise ValueError(f"Unexpectedly large source file: {relative}")
         content = path.read_bytes()
-        decoded = content.decode("utf-8-sig")
-        for label, pattern in BLOCKED_CONTENT:
-            if pattern.search(decoded):
-                # Report the file and category without printing a credential.
-                raise ValueError(f"Review {relative}: found {label}")
+        if path.suffix == ".png":
+            if not content.startswith(b"\x89PNG\r\n\x1a\n"):
+                raise ValueError(f"Invalid documentation screenshot: {relative}")
+        else:
+            decoded = content.decode("utf-8-sig")
+            for label, pattern in BLOCKED_CONTENT:
+                if pattern.search(decoded):
+                    # Report the file and category without printing a credential.
+                    raise ValueError(f"Review {relative}: found {label}")
         yield relative, content
 
 
